@@ -36,6 +36,7 @@ cd qqq 2>/dev/pts/1
 5. cat < a.txt > b.txt
 
 6. Вывести можем через перенаправление в нужный эмулятор tty.
+
 ![image](https://user-images.githubusercontent.com/127683348/229319750-9b99aba4-042a-41e8-a834-5ae6b213f446.png)
 
 
