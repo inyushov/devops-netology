@@ -33,12 +33,11 @@ cd qqq 2>/dev/pts/1
 Тогда в /dev/pts/1 будет
 -bash: cd: qqq: No such file or directory
 
-5. cat < a.txt > b.txt
+5. cat <a >b.txt
 
 6. Вывести можем через перенаправление в нужный эмулятор tty.
 
 ![image](https://user-images.githubusercontent.com/127683348/229319750-9b99aba4-042a-41e8-a834-5ae6b213f446.png)
-
 
 
 7. bash 5>&1 создаст дескриптор c FD 5 и перенатправит его в stdout, а echo netology > /proc/$$/fd/5 выведет netology в дескриптор "5", который был пернеаправлен в stdout, после чего на экране увидим netology
