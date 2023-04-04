@@ -2,6 +2,7 @@
 
 
 2. Для просмотра метрик использовал команду curl localhost:9100/metrics
+
 CPU:
     node_cpu_seconds_total{cpu="0",mode="idle"} 
     node_cpu_seconds_total{cpu="0",mode="system"} 
