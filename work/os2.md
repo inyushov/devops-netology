@@ -1,3 +1,6 @@
+1. В автозагрузку поместил, опцию к запускаемому процессу через внешний файл добавил, проверил через systemctl start, stop процесс стартует и завершается корректно.
+
+![image](https://user-images.githubusercontent.com/127683348/229941051-8280148a-9438-49e2-9dc6-21f41efe00fc.png)
 
 
 
@@ -31,7 +34,7 @@ CPU:
     node_network_transmit_bytes_total{device="eth0"}
     node_network_transmit_errs_total{device="eth0"}
 
-4.
+3.
 
 ![image](https://user-images.githubusercontent.com/127683348/229931620-0d7f6f33-07e0-4847-acde-a8fc54d9f6e6.png)
 
@@ -47,5 +50,9 @@ CPU:
 
 ![image](https://user-images.githubusercontent.com/127683348/229938601-45413437-ead6-4b3a-b292-e3129ace95b3.png)
 
+7. 
 
+:(){ :|:& };: бесконечно создающая  копии (системным вызовом fork())
 
+Помог механизм [ 2466.997520] cgroup: fork rejected by pids controller in /user.slice/user-1000.slice/session-1.scope
+В /usr/lib/systemd/system/user-.slice.d/10-defaults.conf  есть значение TasksMax оно и регулирует число процессов, которое можно создать в сессии
