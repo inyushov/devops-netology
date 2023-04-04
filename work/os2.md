@@ -42,5 +42,10 @@ CPU:
 5. Параметр sysctl -n fs.nr_open означает максимальное количество открытых файлов, ulimit -n лимит открытых файлов на пользователя не позволит достичь данного числа одним пользователем.
 
  ![image](https://user-images.githubusercontent.com/127683348/229934860-6e6c8916-b8e2-4c8e-835b-4bbc511c2482.png)
+ 
+6. 
+
+![image](https://user-images.githubusercontent.com/127683348/229938601-45413437-ead6-4b3a-b292-e3129ace95b3.png)
+
 
 
