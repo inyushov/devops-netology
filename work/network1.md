@@ -3,13 +3,9 @@
 vagrant@vagrant:~$ telnet stackoverflow.com 80
 
 Trying 151.101.129.69...
-
 Connected to stackoverflow.com.
-
 Escape character is '^]'.
-
 GET /questions HTTP/1.0
-
 HOST: stackoverflow.com
 
 HTTP/1.1 403 Forbidden
