@@ -45,7 +45,6 @@ Connection closed by foreign host.
 
 4.
 vagrant@vagrant:~$ whois 31.173.86.210
-
 % This is the RIPE Database query service.
 % The objects are in RPSL format.
 %
