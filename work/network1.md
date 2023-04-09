@@ -137,6 +137,19 @@ source:         RIPE
 
 Наибольшая задержка на 11 участке.
 
+7.
+
+![image](https://user-images.githubusercontent.com/127683348/230792676-712007b7-f3be-48b6-8b94-fe2f85b2be32.png)
+
+Результат первой команды это NS записи, результат второй команды это А записи
+
+8.
+
+На оба адреса PTR запись привязано доменное имя dns.google
+
+![image](https://user-images.githubusercontent.com/127683348/230792883-dc7bab4f-9a45-4b94-bda6-f92ba4bd13af.png)
+
+
 
 
 
