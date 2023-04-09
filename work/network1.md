@@ -37,5 +37,15 @@ Connection closed by foreign host.
 
 Самый долгий запрос это- начальная загрузка страницы 498 ms
 
+3.
+
+![image](https://user-images.githubusercontent.com/127683348/230791313-78caf57d-a505-4dad-ba3f-8997a0880b35.png)
+
+31.173.86.210
+
+4.
+
+
+
 
 
