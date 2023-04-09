@@ -1,4 +1,5 @@
-1. 
+1.
+
 vagrant@vagrant:~$ telnet stackoverflow.com 80
 Trying 151.101.129.69...
 Connected to stackoverflow.com.
@@ -24,5 +25,13 @@ Connection closed by foreign host.
 
 Получен код 403 Forbidden. Данный ответ означает что доступ к запрошенному ресурсу запрещен. Сервер понял запрос, но не выполнит его.
 
-2. 
+2.
+
+![image](https://user-images.githubusercontent.com/127683348/230790533-7665c311-7758-4e61-bb11-cbb48e243f2e.png)
+
+В ответ получили код 200 (OK)
+Страница полностью загрузилась за 2.24 сек.
+Самый долгий запрос это- начальная загрузка страницы 514 ms
+
+
 
