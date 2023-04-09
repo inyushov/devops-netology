@@ -1,5 +1,7 @@
 1.
 
+Получен код 403 Forbidden. Данный ответ означает что доступ к запрошенному ресурсу запрещен. Сервер понял запрос, но не выполнит его.
+
 vagrant@vagrant:~$ telnet stackoverflow.com 80
 
 Trying 151.101.129.69...
@@ -24,13 +26,7 @@ X-Timer: S1681062814.616345,VS0,VE1
 X-DNS-Prefetch-Control: off
 Connection closed by foreign host.
 
-Получен код 403 Forbidden. Данный ответ означает что доступ к запрошенному ресурсу запрещен. Сервер понял запрос, но не выполнит его.
-
 2.
-
-![Screenshot_7](https://user-images.githubusercontent.com/127683348/230790714-4bdf2c3e-2c25-49de-ab74-d724779e4555.jpg)
-
-![Screenshot_8](https://user-images.githubusercontent.com/127683348/230790721-563bfb02-e854-427c-84b6-bbb9471ce7b8.jpg)
 
 В ответ получили код 200 (OK)
 
@@ -38,11 +34,15 @@ Connection closed by foreign host.
 
 Самый долгий запрос это- начальная загрузка страницы 498 ms
 
+![Screenshot_7](https://user-images.githubusercontent.com/127683348/230790714-4bdf2c3e-2c25-49de-ab74-d724779e4555.jpg)
+
+![Screenshot_8](https://user-images.githubusercontent.com/127683348/230790721-563bfb02-e854-427c-84b6-bbb9471ce7b8.jpg)
+
 3.
 
-![image](https://user-images.githubusercontent.com/127683348/230791313-78caf57d-a505-4dad-ba3f-8997a0880b35.png)
+31.173.86.21
 
-31.173.86.210
+![image](https://user-images.githubusercontent.com/127683348/230791313-78caf57d-a505-4dad-ba3f-8997a0880b35.png)
 
 4.
 
@@ -133,15 +133,15 @@ source:         RIPE
 
 6.
 
-![image](https://user-images.githubusercontent.com/127683348/230792492-1af9c396-8620-46c2-b935-7b8e93fc9be3.png)
-
 Наибольшая задержка на 11 участке.
+
+![image](https://user-images.githubusercontent.com/127683348/230792492-1af9c396-8620-46c2-b935-7b8e93fc9be3.png)
 
 7.
 
-![image](https://user-images.githubusercontent.com/127683348/230792676-712007b7-f3be-48b6-8b94-fe2f85b2be32.png)
-
 Результат первой команды это NS записи, результат второй команды это А записи
+
+![image](https://user-images.githubusercontent.com/127683348/230792676-712007b7-f3be-48b6-8b94-fe2f85b2be32.png)
 
 8.
 
