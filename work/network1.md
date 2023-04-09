@@ -1,6 +1,7 @@
 1.
 
 vagrant@vagrant:~$ telnet stackoverflow.com 80
+
 Trying 151.101.129.69...
 Connected to stackoverflow.com.
 Escape character is '^]'.
