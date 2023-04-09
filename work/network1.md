@@ -129,6 +129,13 @@ source:         RIPE
 
 % This query was served by the RIPE Database Query Service version 1.106 (ABERDEEN)
 
+5.
+
+6.
+
+![image](https://user-images.githubusercontent.com/127683348/230792492-1af9c396-8620-46c2-b935-7b8e93fc9be3.png)
+
+Наибольшая задержка на 11 участке.
 
 
 
