@@ -27,11 +27,13 @@ Connection closed by foreign host.
 
 2.
 
-![image](https://user-images.githubusercontent.com/127683348/230790533-7665c311-7758-4e61-bb11-cbb48e243f2e.png)
+![Screenshot_7](https://user-images.githubusercontent.com/127683348/230790714-4bdf2c3e-2c25-49de-ab74-d724779e4555.jpg)
+
+![Screenshot_8](https://user-images.githubusercontent.com/127683348/230790721-563bfb02-e854-427c-84b6-bbb9471ce7b8.jpg)
 
 В ответ получили код 200 (OK)
-Страница полностью загрузилась за 2.24 сек.
-Самый долгий запрос это- начальная загрузка страницы 514 ms
+Страница полностью загрузилась за 1.62 сек.
+Самый долгий запрос это- начальная загрузка страницы 498 ms
 
 
 
