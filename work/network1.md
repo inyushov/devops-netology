@@ -44,6 +44,11 @@ Connection closed by foreign host.
 31.173.86.210
 
 4.
+
+Провайдер: PJSC MegaFon
+AS25159
+
+
 vagrant@vagrant:~$ whois 31.173.86.210
 % This is the RIPE Database query service.
 % The objects are in RPSL format.
@@ -121,6 +126,8 @@ last-modified:  2021-08-16T12:28:40Z
 source:         RIPE
 
 % This query was served by the RIPE Database Query Service version 1.106 (ABERDEEN)
+
+
 
 
 
