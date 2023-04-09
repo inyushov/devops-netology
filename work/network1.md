@@ -131,6 +131,11 @@ source:         RIPE
 
 5.
 
+Через AS8359, AS15169
+
+![image](https://user-images.githubusercontent.com/127683348/230793470-256ce001-ebf9-49c7-a749-f7a924697541.png)
+
+
 6.
 
 Наибольшая задержка на 11 участке.
