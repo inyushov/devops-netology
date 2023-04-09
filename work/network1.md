@@ -32,7 +32,9 @@ Connection closed by foreign host.
 ![Screenshot_8](https://user-images.githubusercontent.com/127683348/230790721-563bfb02-e854-427c-84b6-bbb9471ce7b8.jpg)
 
 В ответ получили код 200 (OK)
+
 Страница полностью загрузилась за 1.62 сек.
+
 Самый долгий запрос это- начальная загрузка страницы 498 ms
 
 
