@@ -18,23 +18,37 @@
 Файл конфигурации находиться /etc/network/interfaces
 
 auto vlan11
+
 iface vlan11 inet static
+
  address 192.168.1.1
+ 
  netmask 255.255.255.0
+ 
  vlan_raw_device eth0
+ 
 auto eth0.11
+
 iface eth0.11 inet static
+
  address 192.168.1.1
+ 
  netmask 255.255.255.0
+ 
  vlan_raw_device eth0
  
  либо через netplan
+ 
  Файл конфигурации находиться /etc/netplan/01-netcfg.yaml
 
 vlans:
+
 enp1s0.50:
+
 id: 50
+
 link: enp1s0
+
 addresses: [192.168.100.2/24]
  
  
