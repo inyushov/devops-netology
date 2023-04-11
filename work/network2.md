@@ -112,3 +112,23 @@ network:
 ![image](https://user-images.githubusercontent.com/127683348/231269653-c5d0bb33-599c-4ea7-a6bc-3d50a1992cc8.png)
 
 Выберу маску /26, на 62 хоста
+
+7.
+
+Проверить таблицу:
+
+В Linux: ip neigh
+
+В Windows: arp -a
+
+Очистить кеш:
+
+В Linux: ip neigh flush
+
+В Windows: arp -d *
+
+Удалить один нужный IP :
+
+В Linux: ip neigh delete <IP> dev <INTERFACE>
+ 
+В Windows: arp -d <IP>
