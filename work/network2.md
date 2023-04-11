@@ -92,7 +92,7 @@ network:
        parameters:
          mode: balance-alb
          mii-monitor-interval: 2
-         ```
+```
 5.
 
 В подсети с маской /29 имеется 6 адресов (если считать адрес сети и бродкаст адрес то 8)
