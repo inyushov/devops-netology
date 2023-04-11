@@ -107,6 +107,8 @@ network:
 
 6.
 
+Возьму адреса из сети для CGNAT - 100.64.0.0/10
+
 ![image](https://user-images.githubusercontent.com/127683348/231269653-c5d0bb33-599c-4ea7-a6bc-3d50a1992cc8.png)
 
 Выберу маску /26, она позволит подключить 62 хоста
