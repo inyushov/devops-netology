@@ -117,18 +117,18 @@ network:
 
 Проверить таблицу:
 
-В Linux: ip neigh
+ Linux: ip neigh
 
-В Windows: arp -a
+ Windows: arp -a
 
 Очистить кеш:
 
-В Linux: ip neigh flush
+ Linux: ip neigh flush
 
-В Windows: arp -d *
+ Windows: arp -d *
 
 Удалить один нужный IP :
 
-В Linux: ip neigh delete <IP> dev <INTERFACE>
+ Linux: ip neigh delete <IP> dev <INTERFACE>
  
-В Windows: arp -d <IP>
+ Windows: arp -d <IP>
