@@ -116,19 +116,20 @@ network:
 7.
 
 Проверить таблицу:
-
+```
  Linux: ip neigh
 
  Windows: arp -a
-
+```
 Очистить кеш:
-
+```
  Linux: ip neigh flush
 
  Windows: arp -d *
-
+```
 Удалить один нужный IP :
-
+```
  Linux: ip neigh delete <IP> dev <INTERFACE>
  
  Windows: arp -d <IP>
+```
