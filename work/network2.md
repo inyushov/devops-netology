@@ -81,3 +81,15 @@ network:
                     - 8.8.8.8
                     - 4.4.4.4
 ```
+Пример balance-alb
+```
+ bonds:
+     bond0: 
+       dhcp4: yes 
+       interfaces:
+         - ens2
+         - ens3
+       parameters:
+         mode: balance-alb
+         mii-monitor-interval: 2
+         ```
