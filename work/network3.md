@@ -176,3 +176,17 @@ LISTEN       0             128                           [::]:22                
 53 порт - DNS
 22 порт - SSH
 ```
+4.
+
+```
+vagrant@vagrant:~$ ss -unap
+State        Recv-Q        Send-Q                Local Address:Port               Peer Address:Port       Process
+UNCONN       0             0                         127.0.0.1:8125                    0.0.0.0:*
+UNCONN       0             0                     127.0.0.53%lo:53                      0.0.0.0:*
+UNCONN       0             0                    10.0.2.15%eth0:68                      0.0.0.0:*
+
+UDP
+53 порт - DNS
+68 порт - Bootstrap protocol client
+
+```
