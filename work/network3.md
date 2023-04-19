@@ -160,3 +160,15 @@ Paths: (20 available, best #20, table default)
       path 7FE1263C9228 RPKI State not found
       rx pathid: 0, tx pathid: 0x0
       ```
+      
+     3.
+```     
+vagrant@vagrant:~$ ss -tnlp
+State        Recv-Q        Send-Q               Local Address:Port                Peer Address:Port       Process
+LISTEN       0             4096                 127.0.0.53%lo:53                       0.0.0.0:*
+LISTEN       0             128                        0.0.0.0:22                       0.0.0.0:*
+LISTEN       0             4096                     127.0.0.1:8125                     0.0.0.0:*
+LISTEN       0             4096                       0.0.0.0:19999                    0.0.0.0:*
+LISTEN       0             4096                             *:9100                           *:*
+LISTEN       0             128                           [::]:22                          [::]:*
+```
