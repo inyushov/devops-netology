@@ -161,6 +161,41 @@ Paths: (20 available, best #20, table default)
       rx pathid: 0, tx pathid: 0x0
 
 ```
+2.
+
+Добавил статический маршрут (через cat показываю, что уже добавли)
+
+```
+vagrant@vagrant:~$ cat /etc/netplan/02-networkd.yaml
+network:
+  version: 2
+  ethernets:
+    eth0:
+      optional: true
+      addresses:
+        - 10.0.2.5/24
+      routes:
+        - to: 10.0.5.0/24
+          via: 10.0.2.2
+```
+
+Итоговая таблица маршрутизации после изменений
+
+```
+vagrant@vagrant:~$ ip r
+default via 10.0.2.2 dev eth0 proto dhcp src 10.0.2.15 metric 100
+10.0.2.0/24 dev eth0 proto kernel scope link src 10.0.2.5
+10.0.2.2 dev eth0 proto dhcp scope link src 10.0.2.15 metric 100
+10.0.5.0/24 via 10.0.2.2 dev eth0 proto static
+10.0.8.0/24 dev dummy0 proto kernel scope link src 10.0.8.1
+```
+
+Статический маршрут
+
+```
+vagrant@vagrant:~$ ip r | grep static
+10.0.5.0/24 via 10.0.2.2 dev eth0 proto static
+```
 3.
 
 ```
