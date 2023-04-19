@@ -163,7 +163,7 @@ Paths: (20 available, best #20, table default)
 ```
 2.
 
-Добавил статический маршрут (через cat показываю, что уже добавли)
+Добавил статический маршрут (routes) (через cat показываю, что уже добавил)
 
 ```
 vagrant@vagrant:~$ cat /etc/netplan/02-networkd.yaml
