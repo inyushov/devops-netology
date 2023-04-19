@@ -190,3 +190,6 @@ UDP
 68 порт - Bootstrap protocol client
 
 ```
+5.
+
+![home_network](https://user-images.githubusercontent.com/127683348/233166771-e7418ac3-3201-49b8-a948-41bc3953bd87.jpg)
