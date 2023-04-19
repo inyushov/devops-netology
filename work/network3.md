@@ -161,8 +161,8 @@ Paths: (20 available, best #20, table default)
       rx pathid: 0, tx pathid: 0x0
 
 ```
-      
-     3.
+3.
+
 ```
 vagrant@vagrant:~$ ss -tnlp
 State        Recv-Q        Send-Q               Local Address:Port                Peer Address:Port       Process
