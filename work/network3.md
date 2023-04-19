@@ -162,7 +162,7 @@ Paths: (20 available, best #20, table default)
       ```
       
      3.
-```     
+```
 vagrant@vagrant:~$ ss -tnlp
 State        Recv-Q        Send-Q               Local Address:Port                Peer Address:Port       Process
 LISTEN       0             4096                 127.0.0.53%lo:53                       0.0.0.0:*
