@@ -11,6 +11,8 @@ Routing entry for 109.252.0.0/16
       AS Hops 3
       Route tag 3303
       MPLS label: none
+```
+```
 route-views>show bgp 109.252.132.146
 BGP routing table entry for 109.252.0.0/16, version 2776258920
 Paths: (20 available, best #20, table default)
