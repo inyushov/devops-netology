@@ -33,9 +33,11 @@ cd qqq 2>/dev/pts/1
 Тогда в /dev/pts/1 будет
 -bash: cd: qqq: No such file or directory
 
+```
 5. Да получиться. ls -la | grep .. > abc.txt
 
-если без PIPE, то cat <abc >abc.txt
+если без PIPE, то cat <ab.txt >abc.txt
+```
 
 6. Вывести можем через перенаправление в нужный эмулятор tty.
 
