@@ -106,6 +106,8 @@ do
   done
 done
 ```
+![image](https://user-images.githubusercontent.com/127683348/235499663-0436d17a-96ad-4de2-acfe-a7ccb9ad9de4.png)
+
 
 ---
 ## Задание 4
