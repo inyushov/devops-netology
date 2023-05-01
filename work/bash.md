@@ -118,9 +118,8 @@ done
 
 ```bash
 #!/usr/bin/env bash
-HOSTS=("173.194.222.113" "192.168.0.1" "87.250.250.242") # Поменял последовательность хостов для наглядного примера
-PORT=80
-LOGFILE=/var/log/hostsping.log
+HOSTS=("173.194.222.113" "192.168.0.1" "87.250.250.242") # Поменял последовательность хостов для наглядного примера, так как первый ip доступен, а второй нет
+LOGFILE=/var/log/error.log
 touch $LOGFILE
 while ((1==1))
 do
@@ -129,12 +128,13 @@ do
     curl $h:$PORT --connect-timeout 5
     if [ "$?" != 0 ]
     then
-      echo $(date):" "$h" status is DOWN!" >> $LOGFILE
+      echo $(date):" "$h" no connection" >> $LOGFILE
       exit 0
     fi
   done
 done
 ```
+![image](https://user-images.githubusercontent.com/127683348/235501810-37c81ea0-913a-4eec-a52b-df9211a59d4f.png)
 
 ---
 
