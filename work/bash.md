@@ -70,7 +70,16 @@ done
 ### Ваш скрипт:
 
 ```bash
-???
+	while ((1==1))              #здесь отсутствовала закрывающаяся круглая скобка, добавил.
+	do
+	  curl https://localhost:4757
+	if (($? != 0))
+	then
+	  date >> curl.log
+	else                        #< здесь отсутствовало условие выхода из цискла, добавил
+	  break                     #<
+	fi
+	done
 ```
 
 ---
@@ -82,7 +91,20 @@ done
 ### Ваш скрипт:
 
 ```bash
-???
+#!/usr/bin/env bash
+HOSTS=("192.168.0.1" "173.194.222.113" "87.250.250.242")
+PORT=80
+LOGFILE=/var/log/hostsping.log
+touch $LOGFILE
+for i in {1..5}
+do
+  for h in ${HOSTS[@]}
+  do
+    curl $h:$PORT --connect-timeout 5
+    RET=$?
+    echo $(date):" "$h" status is "$RET >> $LOGFILE
+  done
+done
 ```
 
 ---
@@ -93,7 +115,23 @@ done
 ### Ваш скрипт:
 
 ```bash
-???
+#!/usr/bin/env bash
+HOSTS=("173.194.222.113" "192.168.0.1" "87.250.250.242") # Поменял последовательность хостов для примера
+PORT=80
+LOGFILE=/var/log/hostsping.log
+touch $LOGFILE
+while ((1==1))
+do
+  for h in ${HOSTS[@]}
+  do
+    curl $h:$PORT --connect-timeout 5
+    if [ "$?" != 0 ]
+    then
+      echo $(date):" "$h" status is DOWN!" >> $LOGFILE
+      exit 0
+    fi
+  done
+done
 ```
 
 ---
