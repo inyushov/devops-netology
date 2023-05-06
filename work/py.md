@@ -38,9 +38,9 @@ c = a + b
 
 | Вопрос  | Ответ |
 | ------------- | ------------- |
-| Какое значение будет присвоено переменной `c`?  | ???  |
-| Как получить для переменной `c` значение 12?  | ???  |
-| Как получить для переменной `c` значение 3?  | ???  |
+| Какое значение будет присвоено переменной `c`?  | значение не будет присвоено, так как разные типы данных  |
+| Как получить для переменной `c` значение 12?  | c = str(a) + b  |
+| Как получить для переменной `c` значение 3?  | c = a + int(b)  |
 
 ------
 
@@ -84,7 +84,7 @@ for result in result_os.split('\n'):
 
 ```
 vagrant@vagrant:/home/netology$ sudo python3 work2.py
-        /home/netology   test
+        /home/netology   test.md
 ```
 
 ------
@@ -96,13 +96,36 @@ vagrant@vagrant:/home/netology$ sudo python3 work2.py
 ### Ваш скрипт:
 
 ```python
-???
+#!/usr/bin/env python3
+
+import os
+import sys
+
+basedir = ""
+try:
+    basedir = sys.argv[1]
+except:
+    print("Incorrect repository path")
+
+if basedir != "":
+        bash_command = [f"cd {basedir}",  "git status "]
+        result_os1 = os.listdir(basedir);
+
+        if result_os1.__contains__(".git"):
+                result_os = os.popen(' && '.join(bash_command)).read()
+                for result in result_os.split('\n'):
+                    if result.find('modified') != -1:
+                        prepare_result = result.replace('modified:', basedir)
+                        print(prepare_result)
+        else:
+                print("There is no git repository on the entered path")
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
 
 ```
-???
+vagrant@vagrant:/home/netology$ sudo python3 work3.py
+Incorrect repository path
 ```
 
 ------
@@ -124,13 +147,50 @@ vagrant@vagrant:/home/netology$ sudo python3 work2.py
 ### Ваш скрипт:
 
 ```python
-???
+#!/usr/bin/env python3
+
+import socket
+from string import whitespace
+
+hosts = ["drive.google.com", "mail.google.com", "google.com"]
+fileList = []
+
+with open('host_test.log') as file:
+    for f in file:
+        fileList.append(f)
+
+with open('host_test.log', 'w+') as file:
+    for i in hosts:
+        result = socket.gethostbyname(i)
+        added = 0
+        for y in fileList:
+            inList = y.find(" {}".format(i))
+            if (inList != -1):
+                ipstr=y.replace('\n', '').split("  ")[1].translate({None: whitespace})
+                if (ipstr == result):
+                    print(" {}  {}\n".format(i, result))
+                    file.write(" {}  {}\n".format(i, result))
+                    added = 1
+                    break
+                else:
+                    print("[ERROR] {} IP mismatch: {}  {}\n".format(i, ipstr, result))
+                    file.write("[ERROR] {} IP mismatch: {}  {}\n".format(i, ipstr, result))
+                    added = 1
+                    break
+        if (added == 0):
+            print(" {}  {}\n".format(i, result))
+            file.write(" {}  {}\n".format(i, result))
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
 
 ```
-???
+vagrant@vagrant:/home/netology$ sudo python3 work4.py
+ drive.google.com  64.233.165.194
+
+ mail.google.com  64.233.163.19
+
+ google.com  173.194.73.138
 ```
 
 ------
