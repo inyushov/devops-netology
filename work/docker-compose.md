@@ -33,5 +33,10 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/942dfbfb-fe2b-4d5c-bf99-f14a7a5d24ad)
 
+Теперь другая ошибка 
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/20ea6f03-50dd-4105-b406-b220c223c0be)
+
+
 
 
