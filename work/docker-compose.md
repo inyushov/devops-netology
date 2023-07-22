@@ -5,13 +5,19 @@
 
 2. Задание
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/528cbeb5-7289-4081-9c07-30ece0f81d56)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/60a65216-45a1-41e8-91ac-7c723790e7e4)
+
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/2fdcdc47-85d3-43da-9704-487cb6dedcfe)
 
 3. Задание
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/ad3cf45a-8c49-4096-84b1-7153c19f5881)
+
+4. Задание
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/55181557-7228-4e78-9c58-d43b5d4f38dd)
+
 
 
 
