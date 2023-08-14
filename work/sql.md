@@ -1,8 +1,8 @@
-1.
+Задача 1
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/7d39b1e7-256b-4b7f-b8c4-c336f1ed1405)
   
-2.
+Задача 2
 
 В БД из задачи 1:
 
@@ -22,9 +22,15 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/17bd8606-089e-402d-8f0b-40fd105c1b32)
 
-3. 
+Задача 3 
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/0843af45-d569-4e7e-99bf-ea312d3ebae3)
+
+Задача 4
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4799534f-5b09-4046-bbf3-3dd8652a6985)
+
+
 
 
 
