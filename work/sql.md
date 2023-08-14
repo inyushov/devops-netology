@@ -4,5 +4,18 @@
   
 2.
 
-создайте пользователя test-admin-user и БД test_db:
-![image](https://github.com/inyushov/devops-netology/assets/127683348/2d73ab69-273e-466b-8f5f-7e066dbe82ea)
+В БД из задачи 1:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/cba18862-ee6c-48ee-849d-cf1857a34353)
+
+Приведите:
+\l+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/6b86fad8-b5f0-451a-a87f-62460691126b)
+
+
+
+
+
+
+
+
