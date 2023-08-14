@@ -4,3 +4,6 @@
   
 2.
 
+создайте пользователя test-admin-user и БД test_db:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/2d73ab69-273e-466b-8f5f-7e066dbe82ea)
