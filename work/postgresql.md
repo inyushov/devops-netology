@@ -42,6 +42,23 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/ed750353-ad42-4269-8119-bdf382af8417)
 
+Перейдите в управляющую консоль psql внутри контейнера
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5651237d-3cb2-45ea-9821-8a9508af7e46)
+
+Подключитесь к восстановленной БД и проведите операцию ANALYZE для сбора статистики по таблице
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d7ee2733-ba73-4d36-88d9-5833501296b4)
+
+Используя таблицу pg_stats, найдите столбец таблицы orders с наибольшим средним значением размера элементов в байтах
+
+Приведите в ответе команду, которую вы использовали для вычисления, и полученный результат
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4c7ab0ba-236d-49a0-ab44-34be5dedfa39)
+
+Задача 3
+
+
 
 
 
