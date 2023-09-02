@@ -32,6 +32,16 @@
 
 Задача 2
 
+Используя psql, создайте БД test_database
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/c3303e6b-ff16-4c5a-a254-ba1dad462c56)
+
+Изучите бэкап БД.
+
+Восстановите бэкап БД в test_database.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/ed750353-ad42-4269-8119-bdf382af8417)
+
 
 
 
