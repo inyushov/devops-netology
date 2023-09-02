@@ -21,7 +21,16 @@
 вывода списка таблиц
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/bdb5849a-ef77-4061-b334-308653548817)
-(62 rows)
+
+вывода описания содержимого таблиц
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/1819af83-dcab-465e-a2fa-b8b2fa9c5c1b)
+
+выхода из psql
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/e21673b2-3887-461e-b7e0-9d178bebe0b1)
+
+Задача 2
 
 
 
