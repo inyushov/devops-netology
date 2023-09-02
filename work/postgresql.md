@@ -21,7 +21,6 @@
 вывода списка таблиц
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/bdb5849a-ef77-4061-b334-308653548817)
-
 (62 rows)
 
 
