@@ -18,8 +18,11 @@
 Так как Redis однопоточное приложение, то все операции блокируются, пока он не выполнит очистку.
 
 https://redis.io/docs/management/optimization/latency/#latency-generated-by-expires
+
 Basically this means that if the database has many, many keys expiring in the same second, and these make up at least 25% of the current population of keys with an expire set, Redis can block in order to get the percentage of keys already expired below 25%.
+
 В основном это означает, что если в базе данных много-много ключей, срок действия которых истекает в одну и ту же секунду, и они составляют не менее 25% от текущей совокупности ключей с истекающим набором Redis может блокировать, чтобы процент ключей, срок действия которых уже истек, был ниже 25%.
+
 Как указано в документации этот подход необходим для того, чтобы избежать использования слишком большого объема памяти для ключей, срок действия которых уже истек.
 
 ### Задача 3
