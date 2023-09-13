@@ -9,7 +9,7 @@ https://github.com/inyushov/devops-netology/tree/main/work/playbook
 
 ### Основная часть
 
-##### 1. Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.
+#### 1. Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/af14802a-4aab-48f3-abfd-513b8687c607)
 
