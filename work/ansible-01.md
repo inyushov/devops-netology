@@ -30,7 +30,6 @@ https://github.com/inyushov/devops-netology/tree/main/work/playbook
 
 Значение some_fact для контейнера ubuntu: deb
 
-
 5. Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились значения: для deb — deb default fact, для el — el default fact.
 
 Редактируем файлы:
@@ -43,7 +42,7 @@ group_vars/deb/examp.yml:
 
   some_fact: "deb default fact"
 
-  ![image](https://github.com/inyushov/devops-netology/assets/127683348/c828f6e4-d672-4b9a-8a1b-282045363dd4)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/c828f6e4-d672-4b9a-8a1b-282045363dd4)
 
 6. Повторите запуск playbook на окружении prod.yml. Убедитесь, что выдаются корректные значения для всех хостов.
 
