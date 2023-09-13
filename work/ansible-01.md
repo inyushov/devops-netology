@@ -52,6 +52,11 @@ group_vars/deb/examp.yml:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/56a89340-5ff6-49a7-98e4-775f48b94a4b)
 
+#### 8 Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь в работоспособности.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/64156392-fda8-4320-ac6c-fb13406b1490)
+
+
 
 
 
