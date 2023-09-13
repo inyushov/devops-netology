@@ -29,6 +29,7 @@ https://github.com/inyushov/devops-netology/tree/main/work/playbook
 Значение some_fact для контейнера centos7: el
 Значение some_fact для контейнера ubuntu: deb
 
+
 5. Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились значения: для deb — deb default fact, для el — el default fact.
 
 Редактируем файлы:
