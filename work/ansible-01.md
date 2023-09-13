@@ -7,6 +7,19 @@
 
 https://github.com/inyushov/devops-netology/tree/main/work/playbook
 
-#### Основная часть
+### Основная часть
+
+1. Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/af14802a-4aab-48f3-abfd-513b8687c607)
+
+2. Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на all default fact.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/8070f327-8ee8-4375-a2fc-61dce0c245e9)
+
+
+3. Воспользуйтесь подготовленным (используется docker) или создайте собственное окружение для проведения дальнейших испытаний.
+
+
 
 
