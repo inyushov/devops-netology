@@ -56,6 +56,30 @@ group_vars/deb/examp.yml:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/64156392-fda8-4320-ac6c-fb13406b1490)
 
+#### 9. Посмотрите при помощи ansible-doc список плагинов для подключения. Выберите подходящий для работы на control node.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/6de9af32-8a22-4e30-96bb-8b8a89867c23)
+
+Выбрал плагин local
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/62fd7fa0-acbb-4a5a-8755-c1c7c2389ef2)
+
+#### 10. В prod.yml добавьте новую группу хостов с именем local, в ней разместите localhost с необходимым типом подключения.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/028754cf-ee99-4c63-9418-08ed320cb24f)
+
+#### 11. Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь, что факты some_fact для каждого из хостов определены из верных group_vars.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/0f6d5e57-969c-445c-80b4-e15c7f894a1c)
+
+#### 12. Заполните README.md ответами на вопросы. Сделайте git push в ветку master. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым playbook и заполненным README.md.
+
+
+
+
+
+
+
 
 
 
