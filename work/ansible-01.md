@@ -27,6 +27,7 @@ https://github.com/inyushov/devops-netology/tree/main/work/playbook
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/c59bc656-fc42-41fc-8fdb-41da1bdec230)
 
 Значение some_fact для контейнера centos7: el
+
 Значение some_fact для контейнера ubuntu: deb
 
 
@@ -35,13 +36,11 @@ https://github.com/inyushov/devops-netology/tree/main/work/playbook
 Редактируем файлы:
 group_vars/el/examp.yml:
 
----
   some_fact: "el default fact"
 
 Редактируем файлы:
 group_vars/deb/examp.yml:
 
----
   some_fact: "deb default fact"
 
   ![image](https://github.com/inyushov/devops-netology/assets/127683348/c828f6e4-d672-4b9a-8a1b-282045363dd4)
