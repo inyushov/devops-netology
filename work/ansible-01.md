@@ -50,6 +50,9 @@ group_vars/deb/examp.yml:
 
 #### 7. При помощи ansible-vault зашифруйте факты в group_vars/deb и group_vars/el с паролем netology.
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/56a89340-5ff6-49a7-98e4-775f48b94a4b)
+
+
 
 
 
