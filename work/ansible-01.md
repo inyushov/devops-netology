@@ -37,6 +37,7 @@ group_vars/el/examp.yml:
 
 ---
   some_fact: "el default fact"
+
 Редактируем файлы:
 group_vars/deb/examp.yml:
 
