@@ -30,3 +30,8 @@
 5. Выполняю исправленный код. В результате получаю запущенный контейнер nginx с именем example_i3BpYkXWnIzeErPr
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/e3258cba-be06-455c-88d6-dd684ca0c247)
+
+6. Меняю в блоке resource "docker_container" "nginx" { имя контейнера на hello_world и выполняю команду terraform apply -auto-approve и docker ps
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/27b9db81-8066-47a7-9c5a-8eb589076fa9)
+
