@@ -34,7 +34,8 @@
 
    ![image](https://github.com/inyushov/devops-netology/assets/127683348/17190442-8c16-44e8-abbd-2a32f3aa4db9)
 
-   
+   ![image](https://github.com/inyushov/devops-netology/assets/127683348/45b4dc96-ad2d-4c55-83ce-77f91e7fb40e)
+
 
 
 5. Раскомментировал блок кода, примерно расположенный на строчках 29–42 файла main.tf. , выполняю команду terraform validate
