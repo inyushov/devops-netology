@@ -16,5 +16,13 @@
 
    ![image](https://github.com/inyushov/devops-netology/assets/127683348/113ba94c-5b86-4875-82c1-05c4cde394b1)
 
+Нашел следующие ошибки в коде:
+1. Не было указано имя ресурса docker_image, написал nginx: resource "docker_image" "nginx" {
+2. Имя контейнера Docker было написано неправильно - 1nginx, правильный вариант: resource "docker_container" "nginx" {
+3. В строке name = "example_${random_password.random_string_FAKE.resulT}" _FAKE оказалось лишним, т.к. создавался ресурс resource "random_password" "random_string" { и ключ resulT написан с буквой T в верхнем регистре, должно быть написано с буквой в нижнем регистре.
+
+Исправленный фрагмент кода выглядит так:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/26e10c07-9239-4741-8566-87c00d9f040b)
 
 
