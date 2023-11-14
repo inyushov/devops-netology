@@ -45,5 +45,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/fc641e0f-9d6c-4f7f-ad86-c595fa5b019c)
 
+Но при этом создался файл terraform.tfstate.backup, содержащий в себе данные до уничтожения ресурсов.
 
+8. Образ nginx:latest не был удален потому, что в описании ресурса образа есть настройка удержания образа keep_locally = true.
 
