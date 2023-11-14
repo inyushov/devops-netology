@@ -32,9 +32,12 @@
 
    Был создан 16-изначный случайный пароль в ключе "result":
 
-   ![image](https://github.com/inyushov/devops-netology/assets/127683348/329e5206-b591-4dfd-b512-0a7b2b69929d)
+   ![image](https://github.com/inyushov/devops-netology/assets/127683348/17190442-8c16-44e8-abbd-2a32f3aa4db9)
 
-4. Раскомментировал блок кода, примерно расположенный на строчках 29–42 файла main.tf. , выполняю команду terraform validate
+   
+
+
+5. Раскомментировал блок кода, примерно расположенный на строчках 29–42 файла main.tf. , выполняю команду terraform validate
 
    ![image](https://github.com/inyushov/devops-netology/assets/127683348/113ba94c-5b86-4875-82c1-05c4cde394b1)
 
