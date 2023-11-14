@@ -33,5 +33,8 @@
 
 6. Меняю в блоке resource "docker_container" "nginx" { имя контейнера на hello_world и выполняю команду terraform apply -auto-approve и docker ps
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/27b9db81-8066-47a7-9c5a-8eb589076fa9)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/8da17fac-1e95-49e3-abf8-9fcf98683a76)
 
+В итоге получаю следующее: так как используется один и тот же образ, контейнер с именем example_i3BpYkXWnIzeErPr был удален и был создан контейнер с именем hello_world.
+
+Опасность команды terraform apply -auto-approve заключается в том, что будет выполняться пропуск планирования ресурсов и вопрос о применении кода не будет задан, что грозит риском потерять уже развернутые ресурсы. В моем случае был удален контейнер и создан новый.
