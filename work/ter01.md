@@ -43,6 +43,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/8485a859-e46c-4c38-9f1e-07d926c5e032)
 
-![Uploading image.png…]()
+![image](https://github.com/inyushov/devops-netology/assets/127683348/fc641e0f-9d6c-4f7f-ad86-c595fa5b019c)
+
 
 
