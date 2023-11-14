@@ -25,4 +25,8 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/26e10c07-9239-4741-8566-87c00d9f040b)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/e8aed5e5-9a0a-4996-828b-e0c2714f5b6c)
 
+5. Выполняю исправленный код. В результате получаю запущенный контейнер nginx с именем example_i3BpYkXWnIzeErPr
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/e3258cba-be06-455c-88d6-dd684ca0c247)
