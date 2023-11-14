@@ -32,7 +32,7 @@
 
    Был создан 16-изначный случайный пароль в ключе "result":
 
-   ![image](https://github.com/inyushov/devops-netology/assets/127683348/17190442-8c16-44e8-abbd-2a32f3aa4db9)
+   ![image](https://github.com/inyushov/devops-netology/assets/127683348/dcea3afc-7256-4ab6-9281-4c669b2562fd)
 
    ![image](https://github.com/inyushov/devops-netology/assets/127683348/45b4dc96-ad2d-4c55-83ce-77f91e7fb40e)
 
