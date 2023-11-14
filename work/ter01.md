@@ -1,3 +1,25 @@
+Чек-лист готовности к домашнему 
+
+1. 
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/ffac063f-2ced-4fdd-9d2a-44192439b133)
+
+2. 
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/7027e181-5a2c-4cd1-a08e-d42f9dca405d)
+
+3.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/2b19bb13-6e33-437a-bcc1-d1eee11ccef4)
+
+4.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/23f61555-4013-4c9c-83df-d5434742c3c9)
+
+
+Задание
+
+
 1. Находясь в каталоге с файлом main.tf командой terraform init произвожу инициализацию рабочего каталога и скачиваю зависимости, указанные в файле
    
    ![image](https://github.com/inyushov/devops-netology/assets/127683348/fa870a41-44b4-4346-ba01-86dfb01374fa)
