@@ -72,6 +72,21 @@ vms_platform.tf
 
 #### Задание 5
 
+1. В файле locals.tf применил интерполяцию, в одном блоке описал имена виртуальных машин
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/91f9119b-5b24-47c7-a9a3-1d2715a51c0d)
+
+2. Заменил переменные с именами виртуальных машин из файла variables.tf на созданные мною local-переменные
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/22035f32-37b3-49fa-b165-bfbd57d1a946)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5ffbb2ac-991a-4366-9404-5e08c9494c43)
+
+3. Применил изменения
+
+#### Задание 6
+
+
 
 
 
