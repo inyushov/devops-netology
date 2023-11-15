@@ -48,7 +48,11 @@
    
 3. В блоке ресурса создал вторую ВМ с указанными параметрами и объявил её переменные с префиксом vm_db_ в файле vms_platform.tf
 
+main.tf
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/4e5898a4-94a1-467f-9126-b7a32a71336b)
+
+vms_platform.tf
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/bb47469a-faff-4917-88af-dea367d133b3)
 
