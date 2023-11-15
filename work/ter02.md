@@ -1,4 +1,4 @@
-Получившийся код work/02/src
+#### Получившийся код по домашнему заданию https://github.com/inyushov/devops-netology/tree/main/work/02/src
 
 #### Задание 1
 
