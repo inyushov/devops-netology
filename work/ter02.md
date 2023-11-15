@@ -30,11 +30,11 @@
 
 1. Изучил файлы проекта.
 
-2. Изменим main.tf
+2. Изменил main.tf
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/33a4ae5d-20fe-4a49-a345-5e3570bc31a4)
 
-3. Добавим новые переменные в variables.tf
+3. Добавил новые переменные в variables.tf
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/12cc8162-fbdb-4db7-8c2c-51f3eae7204f)
 
