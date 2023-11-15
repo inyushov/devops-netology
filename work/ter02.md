@@ -60,8 +60,17 @@ vms_platform.tf
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a5ce506f-115b-4251-8e60-9de7953e6180)
 
+#### Задание 4
 
+1. Объявил в outputs.tf output типа map, получился следующий output
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5cdc89ab-5b9c-40da-9d61-cb45dc2ea2f3)
+
+2. Применил изменения, terraform output
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/0d0035ca-3311-4944-9889-73fdbf010865)
+
+#### Задание 5
 
 
 
