@@ -86,6 +86,33 @@ vms_platform.tf
 
 #### Задание 6
 
+1. Описываю переменные ".._cores",".._memory",".._core_fraction" в vms_platform.tf
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/e5ec2d49-f36c-42e4-a575-a362d83ed03f)
+
+В main.tf в блоке resources применяю описанные выше переменные
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/59b5b94c-08db-4dd4-ab25-5d0aea0c6a83)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/c4131db1-3038-4053-83c5-da9720893692)
+
+2. Для блока metadata описываю переменные
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/68009ae3-0517-4353-88e5-02d2ee730913)
+
+В main.tf в блоке resources применяю описанные выше переменные
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/518e1852-2489-46a5-b6f0-7bcf6095309d)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/04e854a3-ee07-4ca5-a37b-a2ebc81dc413)
+
+3. Удалил неиспользуемые переменные
+
+4. Команда terraform plan изменение не выявила
+
+ ![image](https://github.com/inyushov/devops-netology/assets/127683348/c0ede124-e136-418f-a1b8-c5982a0108a2)
+
+
 
 
 
