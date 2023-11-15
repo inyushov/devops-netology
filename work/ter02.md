@@ -44,6 +44,19 @@
 
 #### Задание 3
 
+1. Создал в корне проекта файл 'vms_platform.tf'. Перенес в него все переменные первой ВМ
+   
+3. В блоке ресурса создал вторую ВМ с указанными параметрами и объявил её переменные с префиксом vm_db_ в файле vms_platform.tf
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4e5898a4-94a1-467f-9126-b7a32a71336b)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/bb47469a-faff-4917-88af-dea367d133b3)
+
+4. Применил конфигурацию, вносится изменение в текущую инфраструктуру, создается еще одна виртуальная машина
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/a5ce506f-115b-4251-8e60-9de7953e6180)
+
+
 
 
 
