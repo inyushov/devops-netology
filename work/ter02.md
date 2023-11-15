@@ -26,4 +26,26 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/0ba20cc6-df5a-412d-8089-318b3a0bddfe)
 
+#### Задание 2
+
+1. Изучил файлы проекта.
+
+2. Изменим main.tf
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/33a4ae5d-20fe-4a49-a345-5e3570bc31a4)
+
+3. Добавим новые переменные в variables.tf
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/12cc8162-fbdb-4db7-8c2c-51f3eae7204f)
+
+4. Выполнил terraform plan, появилось сообщение о том, что terraform не нашел отличий от действующей инфраструктуры
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d0d89dcf-6100-46c4-8fe0-3f32da142171)
+
+#### Задание 3
+
+
+
+
+
 
