@@ -12,6 +12,7 @@
 
 В строке platform_id = "standart-v4" должно быть слово standard1 (т.к. согластно документации Yandex.Cloud https://cloud.yandex.ru/docs/compute/concepts/vm-platforms платформы могут быть только v1, v2 и v3)
 В строке cores = 1 указано неправильное количество ядер процессора (т.к. согласно документации Yandex.Cloud https://cloud.yandex.ru/docs/compute/concepts/performance-levels минимальное количество виртуальных ядер процессора для всех платформ равно двум.
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/9f442cf8-6138-4cb8-b675-611205a0b2b2)
 
 
