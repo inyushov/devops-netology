@@ -1,4 +1,4 @@
-#### Получившийся код по домашнему заданию 
+#### Получившийся код по домашнему заданию https://github.com/inyushov/devops-netology/tree/main/work/03/src
 
 #### Задание 1
 
