@@ -28,19 +28,15 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/feb47041-2cfc-4002-aa46-d34aadc57140)
 
-#### Задание 3
-
-Добавим в for_each-vm.tf атрибут depends_on = [yandex_compute_instance.count], чтобы данный ресурс создавался после первых VM
+3. Добавим в for_each-vm.tf атрибут depends_on = [yandex_compute_instance.count], чтобы данный ресурс создавался после первых VM
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/088a339f-32a5-4ede-a51e-9a6758712f4a)
 
-#### Задание 4
-
-Создал файл locals.tf, куда внесес переменную ssh, для считывания ключа ~/.ssh/id_ed25519.pub и его последующего использования в блоке metadata
+4. Создал файл locals.tf, куда внесес переменную ssh, для считывания ключа ~/.ssh/id_ed25519.pub и его последующего использования в блоке metadata
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/83bcbb2c-330f-41a0-a500-42542b11a870)
 
-#### Задание 5
+5. Инициализировал проект
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/54408ded-c942-45ec-a1a3-cf357ff21ad1)
 
