@@ -42,6 +42,25 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/fee7d83c-9498-4341-b53f-ccfeeaf03da8)
 
+#### Задание 3
+
+1. Создал файл disk_vm.tf и внес в него ресурс yandex_compute_disk
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/6f883d83-b195-4d92-8557-01e978b98996)
+
+2. Создал виртуальную машину storage и используя мета-аргумент for_each подключил к ней созданные диски
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/424601ed-d75c-4cdd-b0e8-346ea9a608e6)
+
+Итог:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/a76aad5d-1402-46ef-b685-9afc67811211)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/cbf12365-eb64-43b1-8993-6aebeacf3d15)
+
+
+
+
 
 
 
