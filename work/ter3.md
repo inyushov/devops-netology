@@ -34,5 +34,20 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/088a339f-32a5-4ede-a51e-9a6758712f4a)
 
+#### Задание 4
+
+Создал файл locals.tf, куда внесес переменную ssh, для считывания ключа ~/.ssh/id_ed25519.pub и его последующего использования в блоке metadata
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/83bcbb2c-330f-41a0-a500-42542b11a870)
+
+#### Задание 5
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/54408ded-c942-45ec-a1a3-cf357ff21ad1)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/fee7d83c-9498-4341-b53f-ccfeeaf03da8)
+
+
+
+
 
 
