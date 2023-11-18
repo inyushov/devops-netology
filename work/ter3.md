@@ -10,3 +10,29 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/e11e9233-c39d-4393-a493-360fa13ccf97)
 
+#### Задание 2
+
+1. Создал файл count-vm.tf и описал в нем две одинаковые VM, с названием web-1 и web-2
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/9201ac9c-e3ef-4b46-8c0e-b43d963088d2)
+
+Назначил VM созданную в первом задании группу безопасности
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5d6062b9-386b-4d40-834b-e9844c350a4b)
+
+2. Создал файл for_each-vm.tf. В нем описал создание двух VM с именами "main" и "replica" разных по cpu/ram/disk , используя мета-аргумент for_each loop
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/e2c3d267-8208-4fbf-8f89-9975a91c2180)
+
+Добавил переменную each_vm в variables.tf
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/feb47041-2cfc-4002-aa46-d34aadc57140)
+
+#### Задание 3
+
+Добавим в for_each-vm.tf атрибут depends_on = [yandex_compute_instance.count], чтобы данный ресурс создавался после первых VM
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/088a339f-32a5-4ede-a51e-9a6758712f4a)
+
+
+
