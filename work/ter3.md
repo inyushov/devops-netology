@@ -28,7 +28,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/feb47041-2cfc-4002-aa46-d34aadc57140)
 
-3. Добавим в for_each-vm.tf атрибут depends_on = [yandex_compute_instance.count], чтобы данный ресурс создавался после первых VM
+3. Добавил в for_each-vm.tf атрибут depends_on = [yandex_compute_instance.count], чтобы данный ресурс создавался после первых VM
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/088a339f-32a5-4ede-a51e-9a6758712f4a)
 
@@ -60,7 +60,7 @@
 
 #### Задание 4
 
-1. Создаk файл ansible.tf
+1. Создал файл ansible.tf
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/de31c53b-c109-43cd-88ee-2990020e4266)
 
