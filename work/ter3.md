@@ -6,5 +6,7 @@
 
 Создалась сеть и подсеть с именем Develop и группа безопасности с именем example_dynamic и правилами трафика
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/17396013-bb18-45bb-86ec-a261ba488c19)
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/e11e9233-c39d-4393-a493-360fa13ccf97)
 
