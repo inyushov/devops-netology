@@ -58,6 +58,37 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/cbf12365-eb64-43b1-8993-6aebeacf3d15)
 
+#### Задание 4
+
+1. Создаk файл ansible.tf
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/de31c53b-c109-43cd-88ee-2990020e4266)
+
+2. Создал файл-шаблон ansible.tftpl
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/fa20b59d-50d9-4e78-83c4-9108b53328af)
+
+3. Выполнил код
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/ae8cf21d-3a29-41d2-b614-a3890a970a91)
+
+Скриншот получившегося файла
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5b4b0cd4-0849-41dc-965e-d3cde173d056)
+
+Удалил все созданные ресурсы
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
