@@ -58,5 +58,22 @@
 
 #### Задание 3
 
+1. Текущий список ресурсов в стейте
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/3227a822-6d05-4175-9b79-87f7f895b6e3)
+
+2. Полностью удалил из стейта модуль vpc_dev
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4431e7e4-61be-42d2-80ae-91d705d49f30)
+
+3. Полностью удалил из стейта модуль test-vm
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/3841ddc1-6395-43ac-bb9d-f0223361000b)
+
+4. Импортирую всё обратно
+
+
+
+
 
 
