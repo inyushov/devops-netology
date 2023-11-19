@@ -25,8 +25,6 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/60e79f4b-92a3-4cab-8dd1-0f6a8af4d769)
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/1a7dba28-c076-4ffe-89db-77235f8a19bf)
-
 #### Задание 2
 
 1. Написал локальный модуль с одной сетью и одной подсетью в зоне ru-central1-a
