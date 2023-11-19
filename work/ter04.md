@@ -1,6 +1,6 @@
 #### Задание 1
 
-1. Склонировал код из демонстрации и изучал его.
+1. Склонировал код из демонстрации и изучил его.
 2. Взял файл main.tf из демонстрации и отредактировал его:
 
 изменил количество VM
@@ -71,6 +71,23 @@
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/3841ddc1-6395-43ac-bb9d-f0223361000b)
 
 4. Импортирую всё обратно
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/ebe28ceb-cdf4-457f-8496-ff7eb2187253)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/3ae11b4a-08b0-4f74-bcfe-8f869864dbfe)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/c8edfff8-0bc4-4d74-8e54-680cb72fc806)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d06f4349-54a7-4784-947d-32ec97934da4)
+
+Выполняю terraform plan
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/390620fa-abd2-42a6-a954-eed3bf23b9c1)
+
+
+
+
+
 
 
 
