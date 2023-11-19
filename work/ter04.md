@@ -1,3 +1,4 @@
+#### Задание 1
 
 1. Склонировал код из демонстрации и изучал его.
 2. Взял файл main.tf из демонстрации и отредактировал его:
@@ -20,10 +21,11 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b961c552-2cfb-497c-902a-accb3d492bf8)
 
-
 4. 
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/60e79f4b-92a3-4cab-8dd1-0f6a8af4d769)
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/1a7dba28-c076-4ffe-89db-77235f8a19bf)
+
+#### Задание 2
 
