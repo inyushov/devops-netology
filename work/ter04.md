@@ -44,8 +44,6 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/95840d19-e7d6-446e-a5f4-58012c065d96)
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/8867f69a-e055-45c4-9c77-dbadb0ef08ca)
-
 5. Вывод module.vpc_dev не изменился
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/6a52e9b8-6bb2-499e-ad91-426b1d72838e)
