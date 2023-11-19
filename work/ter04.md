@@ -23,7 +23,11 @@
 
 4. Скриншот подключения к консоли и вывод команды sudo nginx -t
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/39fe1457-c7e4-4e23-98a0-fdd9f3651b26)
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/60e79f4b-92a3-4cab-8dd1-0f6a8af4d769)
+
+
 
 #### Задание 2
 
