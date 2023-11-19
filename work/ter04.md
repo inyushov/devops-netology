@@ -21,7 +21,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b961c552-2cfb-497c-902a-accb3d492bf8)
 
-4. 
+4. Скриншот подключения к консоли и вывод команды sudo nginx -t
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/60e79f4b-92a3-4cab-8dd1-0f6a8af4d769)
 
