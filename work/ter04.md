@@ -1,3 +1,5 @@
+#### Получившийся код по домашнему заданию https://github.com/inyushov/devops-netology/tree/main/work/04/src
+
 #### Задание 1
 
 1. Склонировал код из демонстрации и изучил его
