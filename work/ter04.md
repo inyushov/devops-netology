@@ -84,6 +84,9 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/390620fa-abd2-42a6-a954-eed3bf23b9c1)
 
+Удалил все созданные ресурсы
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/57cf6834-7ffb-4e44-83ff-021802cef760)
 
 
 
