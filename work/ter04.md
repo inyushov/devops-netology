@@ -1,6 +1,6 @@
 #### Задание 1
 
-1. Склонировал код из демонстрации и изучил его.
+1. Склонировал код из демонстрации и изучил его
 2. Взял файл main.tf из демонстрации и отредактировал его:
 
 изменил количество VM
@@ -11,7 +11,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/64282344-4e70-4b2b-b499-79d12fbaf177)
 
-Решил использовать данную конструкцию, так как в задании указано условие, что переменная authorized-keys должна принимать в себя список, а не строку.
+Решил использовать данную конструкцию, так как в задании указано условие, что переменная authorized-keys должна принимать в себя список, а не строку
 
 Переменная ssh-authorized-keys в файле variables.tf выглядит следующим образом:
 
@@ -52,7 +52,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/6a52e9b8-6bb2-499e-ad91-426b1d72838e)
 
-6. С помощью terraform-docs сгенерировал файл документации. 
+6. С помощью terraform-docs сгенерировал файл документации. https://github.com/inyushov/devops-netology/blob/main/work/04/src/docs.md
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/e61aebbc-6da9-4ea4-ab46-ba81b5b7843d)
 
