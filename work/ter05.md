@@ -59,10 +59,11 @@
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/82b60efc-e149-4c24-821b-348b1de72740)
 
 
-4-6 Запускаю terraform concole и параллельно в другом окне пытаюсь выполнить terraform apply, после чего получаю блокировку стейта
+4-6 Запускаю terraform concole
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a38292fb-71ce-450b-976d-f7f3a9e41564)
 
+в другом окне  выполняю terraform apply, после чего получаю блокировку стейта
 при снятии блокировки получаю ошибку Local state cannot be unlocked by another process
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/edfb4c30-32df-4e3f-ad15-94d4290db416)
