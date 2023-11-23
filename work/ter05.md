@@ -28,8 +28,14 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/459bbe38-d3b0-4647-9f47-0e8b12ef1c33)
 
+Создал сервисный аккаунт
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/9f241505-a5d7-44fa-93eb-3076c7316b5d)
+
+Назначаю роль ydb.editor
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/dd9057b8-b0b6-4b86-bdad-eec51a2e1c78)
+
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/34225a88-5228-41e6-b061-cea7f94a9e4a)
 
