@@ -16,11 +16,16 @@
 
 1. Создал копию репозитория прошлого ДЗ
    
-2. Настроил YDB, S3 bucket, yandex service account, права доступа
+2. 
+
+Создал бакет
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/45494aea-52a5-4cfa-9039-e3ca1606d958)
 
+Создал таблицу блокировок
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/34225a88-5228-41e6-b061-cea7f94a9e4a)
+
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/7158fe25-bd5b-4164-9dc1-67222b9e4c52)
 
