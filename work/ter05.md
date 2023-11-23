@@ -48,7 +48,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/42147ba3-966c-4e6c-b6b4-65f4cc340939)
 
-Если запуская terraform concole и параллельно в другом окне пытаюсь выполнить terraform apply, то получаю блокировку стейта
+4-6 Запускаю terraform concole и параллельно в другом окне пытаюсь выполнить terraform apply, после чего получаю блокировку стейта
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a38292fb-71ce-450b-976d-f7f3a9e41564)
 
