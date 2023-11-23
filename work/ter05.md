@@ -44,9 +44,15 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/69bcc7b6-f012-4394-b9af-501430fec679)
 
-но стейт в бакете не сохраняется.
+но стейт в бакете не сохраняется. (пока не пойму что делаю не так, вроде бы все делаю по демонстрации лекции!)
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/42147ba3-966c-4e6c-b6b4-65f4cc340939)
+
+Если запуская terraform concole и параллельно в другом окне пытаюсь выполнить terraform apply, то получаю блокировку стейта
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/a38292fb-71ce-450b-976d-f7f3a9e41564)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/83d3e905-0f88-4304-8411-2240874968fc)
 
 
 
