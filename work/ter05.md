@@ -10,4 +10,5 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/25605227-55d2-4179-bcd0-e6461443db3b)
 
+#### Задание 2
 
