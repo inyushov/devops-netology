@@ -50,13 +50,14 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/34225a88-5228-41e6-b061-cea7f94a9e4a)
 
-Выполняю команду terraform init -backend-config="access_key=..." -backend-config="security_key=..."
+Выполняю команду terraform init -backend-config="access_key=..." -backend-config="secret_key=..."
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/69bcc7b6-f012-4394-b9af-501430fec679)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/15b4e4ce-f32d-40c3-a21b-eed603a0489c)
 
-но стейт в бакете не сохраняется. (пока не пойму что делаю не так, вроде бы все делаю по демонстрации лекции!)
+стейт в бакете создался
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/42147ba3-966c-4e6c-b6b4-65f4cc340939)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/82b60efc-e149-4c24-821b-348b1de72740)
+
 
 4-6 Запускаю terraform concole и параллельно в другом окне пытаюсь выполнить terraform apply, после чего получаю блокировку стейта
 
