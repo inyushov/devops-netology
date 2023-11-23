@@ -50,7 +50,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/34225a88-5228-41e6-b061-cea7f94a9e4a)
 
-Делаю миграцию state проекта в S3
+Выполняю команду terraform init -backend-config="access_key=..." -backend-config="security_key=..."
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/69bcc7b6-f012-4394-b9af-501430fec679)
 
