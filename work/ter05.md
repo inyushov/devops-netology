@@ -36,10 +36,15 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/dd9057b8-b0b6-4b86-bdad-eec51a2e1c78)
 
-Назначаем акканту права на бакет
+Назначаю акканту права на бакет
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/34225a88-5228-41e6-b061-cea7f94a9e4a)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/69bcc7b6-f012-4394-b9af-501430fec679)
+
+Делаю миграцию state проекта в S3
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/42147ba3-966c-4e6c-b6b4-65f4cc340939)
 
 
 
