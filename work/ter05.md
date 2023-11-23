@@ -16,7 +16,7 @@
 
 1. Создал копию репозитория прошлого ДЗ
    
-2. 
+2. Повторяю демонстрацию лекции
 
 Создал бакет
 
@@ -36,6 +36,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/dd9057b8-b0b6-4b86-bdad-eec51a2e1c78)
 
+Назначаем акканту права на бакет
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/34225a88-5228-41e6-b061-cea7f94a9e4a)
 
