@@ -63,7 +63,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a38292fb-71ce-450b-976d-f7f3a9e41564)
 
-в другом окне выполняю terraform apply, но ощибки с блокировкой стейта не получаю
+в другом окне выполняю terraform apply, но ошибки с блокировкой стейта не получаю
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/30705b07-a4ec-4808-903d-5fea0074821b)
 
