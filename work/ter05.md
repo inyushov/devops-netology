@@ -63,10 +63,10 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a38292fb-71ce-450b-976d-f7f3a9e41564)
 
-в другом окне  выполняю terraform apply, после чего получаю блокировку стейта
-при снятии блокировки получаю ошибку Local state cannot be unlocked by another process
+в другом окне выполняю terraform apply, но ощибки с блокировкой стейта не получаю
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/edfb4c30-32df-4e3f-ad15-94d4290db416)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/30705b07-a4ec-4808-903d-5fea0074821b)
+
 
 #### Задание 4
 
