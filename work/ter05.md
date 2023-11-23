@@ -66,6 +66,21 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/edfb4c30-32df-4e3f-ad15-94d4290db416)
 
+#### Задание 4
+
+Написал переменные с валидацией
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/765d1c7a-f185-4529-a47e-df1efce9c06c)
+
+Если в адресах без ошибок, то terraform console выведет пустой результат
+
+Если в адресах с ошибками, то terraform console выведет результат валидации
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/a7629fe5-9eba-459a-8cc5-d7c636ae9f31)
+
+
+
+
 
 
 
