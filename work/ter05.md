@@ -16,7 +16,7 @@
 
 1. Создал копию репозитория прошлого ДЗ
    
-2.Настроил YDB, S3 bucket, yandex service account, права доступа
+2. Настроил YDB, S3 bucket, yandex service account, права доступа
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/45494aea-52a5-4cfa-9039-e3ca1606d958)
 
