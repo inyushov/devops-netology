@@ -26,5 +26,5 @@ Done -> Closed, Open.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/7c9fe06f-6674-4de8-9de5-de74566f010f)
 
-
+https://github.com/inyushov/devops-netology/blob/main/work/EN-3.xml
 
