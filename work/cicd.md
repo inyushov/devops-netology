@@ -1,1 +1,23 @@
-1
+Необходимо создать собственные workflow для двух типов задач: bug и остальные типы задач. Задачи типа bug должны проходить жизненный цикл:
+
+Open -> On reproduce.
+On reproduce -> Open, Done reproduce.
+Done reproduce -> On fix.
+On fix -> On reproduce, Done fix.
+Done fix -> On test.
+On test -> On fix, Done.
+Done -> Closed, Open.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/fa4fb33f-321e-44f3-b0a1-9fa5dab06a24)
+
+Остальные задачи должны проходить по упрощённому workflow:
+
+Open -> On develop.
+On develop -> Open, Done develop.
+Done develop -> On test.
+On test -> On develop, Done.
+Done -> Closed, Open.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/896a4dd0-d94b-4cb0-a3c1-c68dd16e2576)
+
+
