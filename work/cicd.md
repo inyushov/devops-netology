@@ -28,3 +28,4 @@ Done -> Closed, Open.
 
 https://github.com/inyushov/devops-netology/blob/main/work/EN-3.xml
 
+https://github.com/inyushov/devops-netology/blob/main/work/EN-7.xml
