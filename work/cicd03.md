@@ -18,3 +18,30 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/fc68b13e-cec6-43bc-af07-35962c79982f)
 
+Решение основной части
+
+Создал новый проект, назвал Netology.
+
+Sonar-scanner предлагает скачать пакет. Скачиваю его и размещаю в директории загрузок, выбор директории будет не важен.
+
+Чтобы бинарник Sonar-scanner был доступен, добавляю его в переменную PATH.
+
+Проверяю вывод команды sonar-scanner --version:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d1309c05-98f4-49bf-915c-480d988097cd)
+
+Запускаю анализатор кода с дополнительным ключом:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/795e151c-fd76-49c7-9c27-c58603d8b30b)
+
+После анализа получаю ссылку на дашборд с результатом анализа:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/a48462e7-1601-4d85-a314-d4ee43737ab8)
+
+Смотрю результат в интерфейсе, вижу, что есть 2 бага и 1 Code Smells:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4c83b774-bb7c-4723-89ac-0ea4b080b28e)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/990d7a6f-c4b1-48a9-84f4-73d34fd63528)
+
+
