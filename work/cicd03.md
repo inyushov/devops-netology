@@ -71,6 +71,27 @@ type: tar.gz.
 
 Ссылка на maven-metadata.xml
 
+## Знакомство с Maven
+
+Подготовка к выполнению
+Скачал дистрибутив с maven.
+Разархивировал, добавил путь к бинарнику в переменную PATH.
+Удалил из settings.xml упоминание о правиле, отвергающем HTTP-соединение.
+
+Проверяю mvn --version:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/59dd3a21-4b9c-4391-b2c6-f6d9e6de69c7)
+
+Скачал файл pom.xml из директории mvn.
+
+Поменял в pom.xml блок с зависимостями под мой артефакт из первого пункта задания для Nexus (java с версией 8_282):
+
+Запустил команду mvn package в директории с pom.xml, дождался успешного окончания выполнения команды:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/265a5ecc-1f95-42b0-9edc-d22ad65e0b4f)
+
+
+
 
 
 
