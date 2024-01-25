@@ -95,6 +95,11 @@ type: tar.gz.
 
 Ссылка на исправленный файл pom.xml: https://github.com/inyushov/devops-netology/blob/main/work/cicd/src/pom.xml
 
+Созданную инфраструктуру удалил с серверов Yandex Cloud
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/223b5dea-5e52-4bba-95ac-fbfa6a8ee94f)
+
+
 
 
 
