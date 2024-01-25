@@ -1,4 +1,6 @@
-Создал две виртуальные машины в Yandex Cloud с параметрами: 2CPU 4RAM Centos7. Для создания использовал Terraform, ссылка на код.
+## Подготовка к выполнению
+
+Создал две виртуальные машины в Yandex Cloud с параметрами: 2CPU 4RAM Centos7. Для создания использовал Terraform.
 
 Прописал в inventory созданные хосты.
 
@@ -8,7 +10,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/f5d7c154-2c36-466c-9300-b08883d8cab0)
 
-Открыл браузер, проверил готовность SonarQube через браузер
+Открыл браузер, проверил готовность SonarQube через браузер.
 Зашел под admin\admin, поменял пароль на свой.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/84ac1de1-1b04-444e-afd5-4e035c99c25d)
@@ -69,7 +71,7 @@ type: tar.gz.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/5977347f-8401-4da4-a998-2682d71257ba)
 
-Ссылка на maven-metadata.xml
+Ссылка на maven-metadata.xml:
 
 ## Знакомство с Maven
 
@@ -91,7 +93,7 @@ type: tar.gz.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b1e7fe4e-e711-4100-836b-59224e698ce4)
 
-
+Ссылка на исправленный файл pom.xml: 
 
 
 
