@@ -87,8 +87,10 @@ type: tar.gz.
 Поменял в pom.xml блок с зависимостями под мой артефакт из первого пункта задания для Nexus (java с версией 8_282):
 
 Запустил команду mvn package в директории с pom.xml, дождался успешного окончания выполнения команды:
+Проверяю содержимое ~/.m2/repository/. Артефакт найден:
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/265a5ecc-1f95-42b0-9edc-d22ad65e0b4f)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/b1e7fe4e-e711-4100-836b-59224e698ce4)
+
 
 
 
