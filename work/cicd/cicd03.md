@@ -71,7 +71,7 @@ type: tar.gz.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/5977347f-8401-4da4-a998-2682d71257ba)
 
-Ссылка на maven-metadata.xml:
+Ссылка на maven-metadata.xml: https://github.com/inyushov/devops-netology/blob/main/work/cicd/src/maven-metadata.xml
 
 ## Знакомство с Maven
 
