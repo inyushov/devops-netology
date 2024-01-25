@@ -93,7 +93,7 @@ type: tar.gz.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b1e7fe4e-e711-4100-836b-59224e698ce4)
 
-Ссылка на исправленный файл pom.xml: 
+Ссылка на исправленный файл pom.xml: https://github.com/inyushov/devops-netology/blob/main/work/cicd/src/pom.xml
 
 
 
