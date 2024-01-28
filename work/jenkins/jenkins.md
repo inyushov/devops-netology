@@ -14,6 +14,9 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/6a2eee89-35fb-46cc-84d6-2a8e884945e8)
 
+Создал Freestyle Job, который запускает molecule test из моего репозитория с ролью vector-role:
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d992f36b-ed2f-45cd-a9b8-c4d004975ce3)
 
+Создал Declarative Pipeline Job, который запускает molecule test из того же репозитория:
 
