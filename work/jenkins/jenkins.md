@@ -16,6 +16,9 @@
 
 ### Создал Freestyle Job, который запускает molecule test из моего репозитория с ролью vector-role но выходит ошибка на шаге molecule test
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d23595c7-b671-41bd-9e08-2dceaf207687)
+
+
 Started by user admin
 Running as SYSTEM
 Building remotely on agent (linux ansible) in workspace /opt/jenkins_agent/workspace/freestyle
