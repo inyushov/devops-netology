@@ -10,5 +10,10 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/5fd4fc51-2f32-4b17-877f-0d35dfe06d83)
 
+Сделал первоначальную настройку. Подключил агент.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/6a2eee89-35fb-46cc-84d6-2a8e884945e8)
+
+
 
 
