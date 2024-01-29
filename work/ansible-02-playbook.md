@@ -16,6 +16,7 @@ get_url, yum, meta, pause, command, file, unarchive, copy, replace, user, servic
 
 #### 6. Запустил playbook на этом окружении с флагом --check
 
+```
 root@server1:/vagrant/08-ansible-02-playbook/playbook# ansible-playbook -i inventory/prod.yml site.yml --check
 
 PLAY [Install Clickhouse & Vector] *************************************************************************************
@@ -143,7 +144,7 @@ changed: [clickhouse-01]
 
 PLAY RECAP *************************************************************************************************************
 clickhouse-01              : ok=17   changed=15   unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
-
+```
 
 
 
