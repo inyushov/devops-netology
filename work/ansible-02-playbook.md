@@ -46,7 +46,11 @@ fatal: [clickhouse-01]: FAILED! => {"changed": false, "msg": "No RPM file matchi
 
 PLAY RECAP *************************************************************************************************************
 clickhouse-01              : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=1    ignored=0
+```
 
+#### 7. Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены
+
+```
 root@server1:/vagrant/08-ansible-02-playbook/playbook# ansible-playbook -i inventory/prod.yml site.yml --diff
 
 PLAY [Install Clickhouse & Vector] *************************************************************************************
@@ -152,6 +156,7 @@ changed: [clickhouse-01]
 PLAY RECAP *************************************************************************************************************
 clickhouse-01              : ok=17   changed=15   unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
 ```
+
 #### Проверил изменения на хосте clickhouse-01 "51.250.67.176"
 
 ```
@@ -200,7 +205,7 @@ logout
 Connection to 51.250.67.176 closed.
 ```
 
-#### 7. Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены
+#### 8. Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.
 
 
 
