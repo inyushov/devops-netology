@@ -1,3 +1,10 @@
+#### Подготовил хост через Terraform
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/0d4ede37-b9e2-448f-808a-81780d42b48c)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/93f5acf0-dba0-4e5d-a64c-f9d816cbf769)
+
+
 #### 1. Подготовил свой inventory-файл prod.yml
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/76421b96-4587-4b45-a0f2-40c2199784b2)
