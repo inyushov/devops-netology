@@ -2,7 +2,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/76421b96-4587-4b45-a0f2-40c2199784b2)
 
-#### 2. Допишите playbook:
+#### 2. Дописал playbook:
 
 В site.yml добавил блок task с tags: vector, который устанавливает и настраивает Vector
 
