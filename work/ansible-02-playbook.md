@@ -268,6 +268,6 @@ PLAY RECAP *********************************************************************
 clickhouse-01              : ok=16   changed=4    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
 ```
 
-#### 9. Подготовил README.md-файл по своему playbook 
+#### 9. Подготовил README.md-файл по своему playbook https://github.com/inyushov/devops-netology/blob/main/work/08-ansible-02-playbook/src%20/playbook/README.md
 
-#### 10. Готовый playbook выложите в свой репозиторий
+#### 10. Готовый playbook выложите в свой репозиторий 
