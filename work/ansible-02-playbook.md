@@ -267,3 +267,7 @@ RUNNING HANDLER [Start Vector service] *****************************************
 PLAY RECAP *************************************************************************************************************
 clickhouse-01              : ok=16   changed=4    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
 ```
+
+#### 9. Подготовил README.md-файл по своему playbook 
+
+#### 10. Готовый playbook выложите в свой репозиторий
