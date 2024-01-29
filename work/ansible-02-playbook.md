@@ -145,8 +145,53 @@ changed: [clickhouse-01]
 PLAY RECAP *************************************************************************************************************
 clickhouse-01              : ok=17   changed=15   unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
 ```
+#### Проверил изменения на хосте clickhouse-01 "51.250.67.176"
 
+```
+root@server1:/vagrant/08-ansible-02-playbook/playbook# ssh centos@51.250.67.176
+[centos@fhmda17ba8k3391ovmtl ~]$ ip -br a
+lo               UNKNOWN        127.0.0.1/8 ::1/128
+eth0             UP             10.0.1.11/24 fe80::d20d:d5ff:fe04:eb52/64
+[centos@fhmda17ba8k3391ovmtl ~]$ id vector
+uid=1001(vector) gid=1001(vector) groups=1001(vector)
+[centos@fhmda17ba8k3391ovmtl ~]$ vector --version
+vector 0.21.1 (x86_64-unknown-linux-gnu 18787c0 2022-04-22)
+[centos@fhmda17ba8k3391ovmtl ~]$ systemctl status clickhouse-server
+● clickhouse-server.service - ClickHouse Server (analytic DBMS for big data)
+   Loaded: loaded (/usr/lib/systemd/system/clickhouse-server.service; disabled; vendor preset: disabled)
+   Active: active (running) since Mon 2024-01-29 18:32:19 UTC; 7min ago
+ Main PID: 8867 (clckhouse-watch)
+   CGroup: /system.slice/clickhouse-server.service
+           ├─8867 clickhouse-watchdog --config=/etc/clickhouse-server/config.xml --pid-file=/run/clickhouse-server/cl...           └─8869 /usr/bin/clickhouse-server --config=/etc/clickhouse-server/config.xml --pid-file=/run/clickhouse-se...
+Jan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal systemd[1]: Started ClickHouse Server (analytic DBMS for big data).
+Jan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Processing configuration file '/etc/cli...'.Jan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Logging trace to /var/log/clickhouse-se...ogJan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Logging errors to /var/log/clickhouse-s...ogJan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Processing configuration file '/etc/cli...'.Jan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Saved preprocessed configuration to '/v...'.Jan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Processing configuration file '/etc/cli...'.Jan 29 18:32:19 fhmda17ba8k3391ovmtl.auto.internal clickhouse-server[8867]: Saved preprocessed configuration to '/v...'.Hint: Some lines were ellipsized, use -l to show in full.
+[centos@fhmda17ba8k3391ovmtl ~]$ clickhouse-client
+ClickHouse client version 22.3.3.44 (official build).
+Connecting to localhost:9000 as user default.
+Connected to ClickHouse server version 22.3.3 revision 54455.
 
+fhmda17ba8k3391ovmtl.auto.internal :) SHOW DATABASES;
+
+SHOW DATABASES
+
+Query id: a99bfbbe-603b-487d-8e67-e0dd0febea14
+
+┌─name───────────────┐
+│ INFORMATION_SCHEMA │
+│ default            │
+│ information_schema │
+│ logs               │
+│ system             │
+└────────────────────┘
+
+5 rows in set. Elapsed: 0.002 sec.
+
+fhmda17ba8k3391ovmtl.auto.internal :) q
+Bye.
+[centos@fhmda17ba8k3391ovmtl ~]$ exit
+logout
+Connection to 51.250.67.176 closed.
+```
 
 #### 7. Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены
 
