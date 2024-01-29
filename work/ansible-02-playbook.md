@@ -48,7 +48,7 @@ PLAY RECAP *********************************************************************
 clickhouse-01              : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=1    ignored=0
 ```
 
-#### 7. Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены
+#### 7. Запустил playbook на prod.yml окружении с флагом --diff. Убедился, что изменения на системе произведены
 
 ```
 root@server1:/vagrant/08-ansible-02-playbook/playbook# ansible-playbook -i inventory/prod.yml site.yml --diff
@@ -205,7 +205,64 @@ logout
 Connection to 51.250.67.176 closed.
 ```
 
-#### 8. Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.
+#### 8. Повторно запустил playbook с флагом --diff и убедился, что playbook идемпотентен.
 
+```
+root@server1:/vagrant/08-ansible-02-playbook/playbook# ansible-playbook -i inventory/prod.yml site.yml --diff
 
+PLAY [Install Clickhouse & Vector] *************************************************************************************
+TASK [Gathering Facts] *************************************************************************************************ok: [clickhouse-01]
 
+TASK [Get clickhouse distrib] ******************************************************************************************ok: [clickhouse-01] => (item=clickhouse-client)
+ok: [clickhouse-01] => (item=clickhouse-server)
+failed: [clickhouse-01] (item=clickhouse-common-static) => {"ansible_loop_var": "item", "changed": false, "dest": "./clickhouse-common-static-22.3.3.44.rpm", "elapsed": 0, "gid": 1000, "group": "centos", "item": "clickhouse-common-static", "mode": "0644", "msg": "Request failed", "owner": "centos", "response": "HTTP Error 404: Not Found", "secontext": "unconfined_u:object_r:user_home_t:s0", "size": 246310036, "state": "file", "status_code": 404, "uid": 1000, "url": "https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-22.3.3.44.noarch.rpm"}
+
+TASK [Get clickhouse distrib] ******************************************************************************************ok: [clickhouse-01] => (item=clickhouse-client)
+ok: [clickhouse-01] => (item=clickhouse-server)
+ok: [clickhouse-01] => (item=clickhouse-common-static)
+
+TASK [Install clickhouse packages] *************************************************************************************ok: [clickhouse-01]
+
+TASK [Flush handlers] **************************************************************************************************
+TASK [Wait for clickhouse-server to become available] ******************************************************************Pausing for 15 seconds (output is hidden)
+(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
+ok: [clickhouse-01]
+
+TASK [Create database] *************************************************************************************************ok: [clickhouse-01]
+
+TASK [Create vector work directory] ************************************************************************************ok: [clickhouse-01]
+
+TASK [Get Vector distrib] **********************************************************************************************ok: [clickhouse-01]
+
+TASK [Unzip Vector archive] ********************************************************************************************ok: [clickhouse-01]
+
+TASK [Install Vector binary] *******************************************************************************************ok: [clickhouse-01]
+
+TASK [Check Vector installation] ***************************************************************************************changed: [clickhouse-01]
+
+TASK [Create Vector config vector.toml] ********************************************************************************ok: [clickhouse-01]
+
+TASK [Create vector.service daemon] ************************************************************************************changed: [clickhouse-01]
+
+TASK [Modify vector.service file] **************************************************************************************--- before: /lib/systemd/system/vector.service
++++ after: /lib/systemd/system/vector.service
+@@ -8,7 +8,7 @@
+ User=vector
+ Group=vector
+ ExecStartPre=/usr/bin/vector validate
+-ExecStart=/usr/bin/vector
++ExecStart=/usr/bin/vector --config /etc/vector/vector.toml
+ ExecReload=/usr/bin/vector validate
+ ExecReload=/bin/kill -HUP $MAINPID
+ Restart=no
+
+changed: [clickhouse-01]
+
+TASK [Create user vector] **********************************************************************************************ok: [clickhouse-01]
+
+TASK [Create Vector data_dir] ******************************************************************************************ok: [clickhouse-01]
+
+RUNNING HANDLER [Start Vector service] *********************************************************************************changed: [clickhouse-01]
+
+PLAY RECAP *************************************************************************************************************clickhouse-01              : ok=16   changed=4    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
+```
