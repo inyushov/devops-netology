@@ -143,7 +143,9 @@ clickhouse-01              : ok=6    changed=0    unreachable=0    failed=0    s
 lighthouse-01              : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 vector-01                  : ok=13   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
+#### 9. Подготовил README.md
 
+#### 10. 
 
 
 
