@@ -21,7 +21,12 @@ site.yml:67
 
 Проверка останавливается на этапе установки пакетов Clickhouse, так как они не скачаны в систему.
 
-#### 7. Запустил playbook на prod.yml окружении с флагом --diff
+#### 7. Запустил playbook на prod.yml окружении с флагом --diff. Убедился, что изменения на системе произведены.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/72fc271a-468a-4846-84a1-4a05c5b3d423)
+
+
+#### 8. Повторно запустил playbook с флагом --diff и убедился, что playbook идемпотентен.
 
 ```
 root@server1:/vagrant/08-ansible-02-playbook/playbook# ansible-playbook -i inventory/prod.yml site.yml --diff
@@ -125,40 +130,20 @@ changed: [vector-01]
 PLAY [Lighthouse] ******************************************************************************************************
 
 TASK [Pre-install Nginx & Git client] **********************************************************************************
-changed: [lighthouse-01]
+ok: [lighthouse-01]
 
 TASK [Clone Lighthouse source code by Git] *****************************************************************************
->> Newly checked out d701335c25cd1bb9b5155711190bad8ab852c2ce
-changed: [lighthouse-01]
+ok: [lighthouse-01]
 
 TASK [Prepare nginx config] ********************************************************************************************
---- before
-+++ after: /root/.ansible/tmp/ansible-local-1900796qexj7vgq/tmp79nnos1e/lighthouse.conf.j2
-@@ -0,0 +1,12 @@
-+server {
-+    listen 8080;
-+    server_name 0.0.0.0;
-+
-+    access_log /var/log/nginx/lighthouse-access.log;
-+
-+    location / {
-+        root /home/user/lighthouse/;
-+        index index.html;
-+
-+    }
-+}
-\ No newline at end of file
-
-changed: [lighthouse-01]
-
-RUNNING HANDLER [Start Lighthouse service] *****************************************************************************
-changed: [lighthouse-01]
+ok: [lighthouse-01]
 
 PLAY RECAP *************************************************************************************************************
 clickhouse-01              : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0
-lighthouse-01              : ok=4    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+lighthouse-01              : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 vector-01                  : ok=13   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
+
 
 
 
