@@ -1,10 +1,10 @@
-#### 1. Дописал playbook: в site.yml https://github.com/inyushov/devops-netology/blob/main/work/08-ansible-03-yandex/src/playbook/site.yml добавил ещё один play с tags=lighthouse, который устанавливает и настраивает LightHouse.
+#### 1. Дописал playbook: в site.yml добавил ещё один play с tags=lighthouse, который устанавливает и настраивает LightHouse. https://github.com/inyushov/devops-netology/blob/main/work/08-ansible-03-yandex/src/playbook/site.yml
 
 #### 2. При создании tasks использовал модули: get_url, template, yum, apt.
 
 #### 3. Выполнил.
 
-#### 4. Подготовил свой inventory-файл prod.yml. 
+#### 4. Подготовил свой inventory-файл prod.yml. https://github.com/inyushov/devops-netology/blob/main/work/08-ansible-03-yandex/src/playbook/inventory/prod.yml
 
 #### 5 .Запустил ansible-lint site.yml.
 
