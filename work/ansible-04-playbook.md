@@ -225,9 +225,12 @@ vector-01                  : ok=13   changed=5    unreachable=0    failed=0    s
 #### 11. В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
 
 оба репозитория с roles:
+
 https://github.com/inyushov/vector-role
+
 https://github.com/inyushov/lighthouse-role
 
 репозиторий с playbook:
+
 https://github.com/inyushov/devops-netology/tree/main/work/08-ansible-04-role/src/playbook
 
