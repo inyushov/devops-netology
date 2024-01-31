@@ -44,7 +44,7 @@ requirements.yml
 
 #### 9. Переработал playbook на использование roles.
 
-site.yml
+site.yml 
 
 Работа playbook и предварительное скачивание требуемых ролей, описанных в requirements.yml:
 
@@ -226,5 +226,5 @@ https://github.com/inyushov/vector-role
 https://github.com/inyushov/lighthouse-role
 
 репозиторий с playbook:
-
+https://github.com/inyushov/devops-netology/tree/main/work/08-ansible-04-role/src/playbook
 
