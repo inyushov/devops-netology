@@ -217,3 +217,7 @@ clickhouse-01              : ok=24   changed=0    unreachable=0    failed=0    s
 lighthouse-01              : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 vector-01                  : ok=13   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
+#### 10. Выложил playbook в репозиторий.
+
+#### 11. В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
+
