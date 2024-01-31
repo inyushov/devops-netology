@@ -33,6 +33,7 @@ root@server1:/vagrant/ansible-04-playbook/playbook/roles# ansible-galaxy role in
 #### 6. Описал в README.md обе роли и их параметры.
 
 https://github.com/inyushov/vector-role/blob/main/README.md
+
 https://github.com/inyushov/lighthouse-role/blob/main/README.md
 
 #### 7. Повторил шаги 3–6 для LightHouse:
