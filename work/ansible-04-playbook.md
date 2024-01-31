@@ -40,7 +40,7 @@ lighthouse-role, tag: 1.0.0
 
 vector-role, tag: 1.0.0.
 
-requirements.yml
+requirements.yml https://github.com/inyushov/devops-netology/blob/main/work/08-ansible-04-role/src/playbook/requirements.yml
 
 #### 9. Переработал playbook на использование roles.
 
