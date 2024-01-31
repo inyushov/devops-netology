@@ -44,7 +44,7 @@ requirements.yml
 
 #### 9. Переработал playbook на использование roles.
 
-site.yml 
+site.yml https://github.com/inyushov/devops-netology/blob/main/work/08-ansible-04-role/src/playbook/site.yml
 
 Работа playbook и предварительное скачивание требуемых ролей, описанных в requirements.yml:
 
