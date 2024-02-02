@@ -505,9 +505,9 @@ INFO     Pruning extra files from scenario ephemeral directory
 
 ### Tox
 
-#### 1. Добавил.
+#### 1. Добавил файлы.
 
-#### 2. Запуститил.
+#### 2. Запуститил docker run --privileged=True -v /vagrant/ansible-05-testing/playbook/roles/vector-role:/opt/vector- role -w /opt/vector-role -it aragast/netology:latest /bin/bash.
 
 ```
 root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# docker run --privileged=True -v /vagrant/ansible-05-testing/playbook/roles/vector-role:/opt/vector-
