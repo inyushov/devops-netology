@@ -1,3 +1,5 @@
+### Molecule
+
 #### 1. Запуститл molecule test -s ubuntu_xenial внутри корневой директории clickhouse-role
 
 ```
@@ -498,4 +500,55 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
 
 INFO     Pruning extra files from scenario ephemeral directory
+```
+
+
+### Tox
+
+#### 1. Добавил.
+
+#### 2. Запуститил.
+
+```
+root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# docker run --privileged=True -v /vagrant/ansible-05-testing/playbook/roles/vector-role:/opt/vector-
+role -w /opt/vector-role -it aragast/netology:latest /bin/bash
+[root@93dc5aedd7a6 vector-role]#
+```
+#### 2.Внутри контейнера выполнил команду tox
+
+```
+[root@9dd46d23a8e4 vector-role]# tox
+py37-ansible210 create: /opt/vector-role/.tox/py37-ansible210
+ERROR: invocation failed (exit code 1), logfile: /opt/vector-role/.tox/py37-ansible210/log/py37-ansible210-0.log
+============================================================================== log start ===============================================================================
+OSError: [Errno 71] Protocol error: '/usr/local/bin/python3.7' -> '/opt/vector-role/.tox/py37-ansible210/bin/python'
+
+=============================================================================== log end ================================================================================
+ERROR: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.7 py37-ansible210 (exited with code 1)
+py37-ansible30 create: /opt/vector-role/.tox/py37-ansible30
+ERROR: invocation failed (exit code 1), logfile: /opt/vector-role/.tox/py37-ansible30/log/py37-ansible30-0.log
+============================================================================== log start ===============================================================================
+OSError: [Errno 71] Protocol error: '/usr/local/bin/python3.7' -> '/opt/vector-role/.tox/py37-ansible30/bin/python'
+
+=============================================================================== log end ================================================================================
+ERROR: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.7 py37-ansible30 (exited with code 1)
+py39-ansible210 create: /opt/vector-role/.tox/py39-ansible210
+ERROR: invocation failed (exit code 1), logfile: /opt/vector-role/.tox/py39-ansible210/log/py39-ansible210-0.log
+============================================================================== log start ===============================================================================
+OSError: [Errno 71] Protocol error: '/usr/local/bin/python3.9' -> '/opt/vector-role/.tox/py39-ansible210/bin/python'
+
+=============================================================================== log end ================================================================================
+ERROR: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.9 py39-ansible210 (exited with code 1)
+py39-ansible30 create: /opt/vector-role/.tox/py39-ansible30
+ERROR: invocation failed (exit code 1), logfile: /opt/vector-role/.tox/py39-ansible30/log/py39-ansible30-0.log
+============================================================================== log start ===============================================================================
+OSError: [Errno 71] Protocol error: '/usr/local/bin/python3.9' -> '/opt/vector-role/.tox/py39-ansible30/bin/python'
+
+=============================================================================== log end ================================================================================
+ERROR: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.9 py39-ansible30 (exited with code 1)
+_______________________________________________________________________________ summary ________________________________________________________________________________
+ERROR:   py37-ansible210: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.7 py37-ansible210 (exited with code 1)
+ERROR:   py37-ansible30: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.7 py37-ansible30 (exited with code 1)
+ERROR:   py39-ansible210: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.9 py39-ansible210 (exited with code 1)
+ERROR:   py39-ansible30: InvocationError for command /usr/bin/python3 -m virtualenv --no-download --python /usr/local/bin/python3.9 py39-ansible30 (exited with code 1)
 ```
