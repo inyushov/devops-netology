@@ -69,3 +69,11 @@ TASK [Delete docker networks(s)] ***********************************************
 PLAY RECAP *********************************************************************
 localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
 ```
+
+#### 2. Перешол в каталог с ролью vector-role и создал сценарий тестирования по умолчанию при помощи molecule init scenario --driver-name docker
+
+```
+root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# molecule init scenario --driver-name docker
+INFO     Initializing new scenario default...
+INFO     Initialized scenario in /vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/default successfully.
+```
