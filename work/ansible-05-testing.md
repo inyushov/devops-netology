@@ -1102,6 +1102,6 @@ ________________________________________________________________________________
   py37-ansible30: commands succeeded
   congratulations :)
 ```
-#### 7. Добавьте новый тег https://github.com/inyushov/vector-role/releases/tag/1.0.2
+#### 7. Добавил новый тег https://github.com/inyushov/vector-role/releases/tag/1.0.2
 
 Cсылка на репозиторий https://github.com/inyushov/vector-role
