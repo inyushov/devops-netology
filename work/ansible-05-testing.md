@@ -3,21 +3,21 @@
 #### 1. Запуститл molecule test -s ubuntu_xenial внутри корневой директории clickhouse-role
 
 ```
-root@server1:/vagrant/ansible-05-testing/playbook/roles/clickhouse# molecule test -s ubuntu_xenial
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/clickhouse# molecule test -s ubuntu_xenial
 INFO     ubuntu_xenial scenario test matrix: dependency, lint, cleanup, destroy, syntax, create, prepare, converge, idempotence, side_effect, verify, cleanup, destroy
 INFO     Performing prerun...
 INFO     Set ANSIBLE_LIBRARY=/root/.cache/ansible-compat/7e099f/modules:/root/.ansible/plugins/modules:/usr/share/ansible/plugins/modules
 INFO     Set ANSIBLE_COLLECTIONS_PATH=/root/.cache/ansible-compat/7e099f/collections:/root/.ansible/collections:/usr/share/ansible/collections
 INFO     Set ANSIBLE_ROLES_PATH=/root/.cache/ansible-compat/7e099f/roles:/root/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
 INFO     Running ubuntu_xenial > dependency
 WARNING  Skipping, missing the requirements file.
 WARNING  Skipping, missing the requirements file.
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
 INFO     Running ubuntu_xenial > lint
 COMMAND: yamllint .
 ansible-lint
@@ -43,14 +43,14 @@ subprocess.CalledProcessError: Command '['git', 'ls-files', '*.yaml', '*.yml']' 
 /bin/bash: line 2: flake8: command not found
 CRITICAL Lint failed with error code 127
 WARNING  An error occurred during the test sequence action: 'lint'. Cleaning up.
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
 INFO     Running ubuntu_xenial > cleanup
 WARNING  Skipping, cleanup playbook not configured.
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
-INFO     Inventory /vagrant/ansible-05-testing/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/hosts.yml linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/hosts
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/group_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/group_vars
+INFO     Inventory /vagrant/ansible-04-playbook/playbook/roles/clickhouse/molecule/ubuntu_xenial/../resources/inventory/host_vars/ linked to /root/.cache/molecule/clickhouse/ubuntu_xenial/inventory/host_vars
 INFO     Running ubuntu_xenial > destroy
 INFO     Sanity checks: 'docker'
 
@@ -75,16 +75,16 @@ localhost                  : ok=3    changed=1    unreachable=0    failed=0    s
 #### 2. Перешол в каталог с ролью vector-role и создал сценарий тестирования по умолчанию при помощи molecule init scenario --driver-name docker
 
 ```
-root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# molecule init scenario --driver-name docker
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/vector-role# molecule init scenario --driver-name docker
 INFO     Initializing new scenario default...
-INFO     Initialized scenario in /vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/default successfully.
+INFO     Initialized scenario in /vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/default successfully.
 ```
 #### 3. Добавил oraclelinux:8, ubuntu:latest для инстансов и протестировал роль
 
 #### molecule test -s oraclelinux_8
 
 ```
-root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# molecule test -s oraclelinux_8
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/vector-role# molecule test -s oraclelinux_8
 INFO     oraclelinux_8 scenario test matrix: dependency, lint, cleanup, destroy, syntax, create, prepare, converge, idempotence, side_effect, verify, cleanup, destroy
 INFO     Performing prerun...
 INFO     Set ANSIBLE_LIBRARY=/root/.cache/ansible-compat/f5bcd7/modules:/root/.ansible/plugins/modules:/usr/share/ansible/plugins/modules
@@ -119,7 +119,7 @@ localhost                  : ok=3    changed=1    unreachable=0    failed=0    s
 
 INFO     Running oraclelinux_8 > syntax
 
-playbook: /vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml
+playbook: /vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml
 INFO     Running oraclelinux_8 > create
 
 PLAY [Create] ******************************************************************
@@ -197,7 +197,7 @@ fatal: [instance]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariabl
 PLAY RECAP *********************************************************************
 instance                   : ok=7    changed=6    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
 
-CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/oraclelinux_8/inventory', '--skip-tags', 'molecule-notest,notest', '/vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml']
+CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/oraclelinux_8/inventory', '--skip-tags', 'molecule-notest,notest', '/vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml']
 WARNING  An error occurred during the test sequence action: 'converge'. Cleaning up.
 INFO     Running oraclelinux_8 > cleanup
 WARNING  Skipping, cleanup playbook not configured.
@@ -221,7 +221,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
 
 INFO     Pruning extra files from scenario ephemeral directory
-root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# molecule test -s oraclelinux_8
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/vector-role# molecule test -s oraclelinux_8
 INFO     oraclelinux_8 scenario test matrix: dependency, lint, cleanup, destroy, syntax, create, prepare, converge, idempotence, side_effect, verify, cleanup, destroy
 INFO     Performing prerun...
 INFO     Set ANSIBLE_LIBRARY=/root/.cache/ansible-compat/f5bcd7/modules:/root/.ansible/plugins/modules:/usr/share/ansible/plugins/modules
@@ -256,7 +256,7 @@ localhost                  : ok=3    changed=1    unreachable=0    failed=0    s
 
 INFO     Running oraclelinux_8 > syntax
 
-playbook: /vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml
+playbook: /vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml
 INFO     Running oraclelinux_8 > create
 
 PLAY [Create] ******************************************************************
@@ -334,7 +334,7 @@ fatal: [instance]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariabl
 PLAY RECAP *********************************************************************
 instance                   : ok=7    changed=6    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
 
-CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/oraclelinux_8/inventory', '--skip-tags', 'molecule-notest,notest', '/vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml']
+CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/oraclelinux_8/inventory', '--skip-tags', 'molecule-notest,notest', '/vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/oraclelinux_8/converge.yml']
 WARNING  An error occurred during the test sequence action: 'converge'. Cleaning up.
 INFO     Running oraclelinux_8 > cleanup
 WARNING  Skipping, cleanup playbook not configured.
@@ -363,7 +363,7 @@ INFO     Pruning extra files from scenario ephemeral directory
 #### molecule test -s ubuntu_latest
 
 ```
-root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# molecule test -s ubuntu_latest
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/vector-role# molecule test -s ubuntu_latest
 INFO     ubuntu_latest scenario test matrix: dependency, lint, cleanup, destroy, syntax, create, prepare, converge, idempotence, side_effect, verify, cleanup, destroy
 INFO     Performing prerun...
 INFO     Set ANSIBLE_LIBRARY=/root/.cache/ansible-compat/f5bcd7/modules:/root/.ansible/plugins/modules:/usr/share/ansible/plugins/modules
@@ -398,7 +398,7 @@ localhost                  : ok=3    changed=2    unreachable=0    failed=0    s
 
 INFO     Running ubuntu_latest > syntax
 
-playbook: /vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/ubuntu_latest/converge.yml
+playbook: /vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/ubuntu_latest/converge.yml
 INFO     Running ubuntu_latest > create
 
 PLAY [Create] ******************************************************************
@@ -476,7 +476,7 @@ fatal: [instance]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariabl
 PLAY RECAP *********************************************************************
 instance                   : ok=7    changed=6    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
 
-CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/ubuntu_latest/inventory', '--skip-tags', 'molecule-notest,notest', '/vagrant/ansible-05-testing/playbook/roles/vector-role/molecule/ubuntu_latest/converge.yml']
+CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/ubuntu_latest/inventory', '--skip-tags', 'molecule-notest,notest', '/vagrant/ansible-04-playbook/playbook/roles/vector-role/molecule/ubuntu_latest/converge.yml']
 WARNING  An error occurred during the test sequence action: 'converge'. Cleaning up.
 INFO     Running ubuntu_latest > cleanup
 WARNING  Skipping, cleanup playbook not configured.
@@ -501,16 +501,44 @@ localhost                  : ok=3    changed=2    unreachable=0    failed=0    s
 
 INFO     Pruning extra files from scenario ephemeral directory
 ```
+#### 4. Добавил несколько assert в verify.yml-файл для проверки работоспособности vector-role
 
+```
+- name: Verify
+  hosts: all
+  gather_facts: false
+  vars_files:
+    -  "{{ lookup('ansible.builtin.env', 'MOLECULE_PROJECT_DIRECTORY') }}/vars/main.yml"
+  tasks:
+
+  - name: Get Vector version
+    ansible.builtin.command: "vector --version"
+    changed_when: false
+    register: vector_version
+  - name: Assert Vector instalation
+    assert:
+      that: "'{{ vector_version.rc }}' == '0'"
+
+  - name: Validation Vector configuration
+    ansible.builtin.command: "vector validate --no-environment --config-toml {{ vector_config }}"
+    changed_when: false
+    register: vector_validate
+  - name: Assert Vector validate config
+    assert:
+      that: "'{{ vector_validate.rc }}' == '0'"
+```
+#### 5. Тестирование роли прошло успешно.
+
+#### 6. Добавил новый тег https://github.com/inyushov/vector-role/releases/tag/1.0.1
 
 ### Tox
 
 #### 1. Добавил файлы.
 
-#### 2. Запуститил docker run --privileged=True -v /vagrant/ansible-05-testing/playbook/roles/vector-role:/opt/vector- role -w /opt/vector-role -it aragast/netology:latest /bin/bash.
+#### 2. Запуститил docker run --privileged=True -v /vagrant/ansible-04-playbook/playbook/roles/vector-role:/opt/vector- role -w /opt/vector-role -it aragast/netology:latest /bin/bash.
 
 ```
-root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# docker run --privileged=True -v /vagrant/ansible-05-testing/playbook/roles/vector-role:/opt/vector-
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/vector-role# docker run --privileged=True -v /vagrant/ansible-04-playbook/playbook/roles/vector-role:/opt/vector-
 role -w /opt/vector-role -it aragast/netology:latest /bin/bash
 [root@93dc5aedd7a6 vector-role]#
 ```
@@ -803,7 +831,7 @@ scenario:
 #### 5. Прописал правильную команду в tox.ini, чтобы запускался облегчённый сценарий.
 
 ```
-root@server1:/vagrant/ansible-05-testing/playbook/roles/vector-role# molecule matrix -s tox test
+root@server1:/vagrant/ansible-04-playbook/playbook/roles/vector-role# molecule matrix -s tox test
 INFO     Test matrix
 ---
 tox:
@@ -813,7 +841,7 @@ tox:
   - destroy
 ```
 
-#### Запустил команду tox. Убедился, что всё отработало успешно.
+#### 6. Запустил команду tox. Убедился, что всё отработало успешно.
 
 ```
 [root@26ea5591b589 vector-role]# tox
@@ -1074,3 +1102,6 @@ ________________________________________________________________________________
   py37-ansible30: commands succeeded
   congratulations :)
 ```
+#### 7. Добавьте новый тег https://github.com/inyushov/vector-role/releases/tag/1.0.2
+
+Cсылка на репозиторий https://github.com/inyushov/vector-role
