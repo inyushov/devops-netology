@@ -11,7 +11,7 @@
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/1e13e543-427e-4e4c-baa1-68f50b5071e7)
 
 
-#### 1. Создал Freestyle Job, но сборка завершвется с ошибкой
+#### 1. Создал Freestyle Job, но сборка завершается с ошибкой
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/321a3d49-6d46-48c1-9b71-18785847254e)
 
@@ -182,7 +182,7 @@ Finished: FAILURE
 
 
 
-#### 2. Сделал Declarative Pipeline Job, так же завершаеться ошибкой.
+#### 2. Сделал Declarative Pipeline Job, так же завершается ошибкой.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/e37f0f8e-741f-4c16-a299-31338ddb581d)
 
