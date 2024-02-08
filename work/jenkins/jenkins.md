@@ -1,20 +1,182 @@
 Создал две VM с помощью Terraform.
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/ed9c15fa-4b6b-409a-9a40-60f43ae8adc7)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5704cb5d-e841-4c83-9b8c-cbd5ec88ec3f)
 
 Установил Jenkins при помощи playbook.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/79a0ab72-dc93-454a-b63f-cb2032681513)
 
-Запустил Jenkins и проверил его работоспособность
-
-![image](https://github.com/inyushov/devops-netology/assets/127683348/5fd4fc51-2f32-4b17-877f-0d35dfe06d83)
-
 Сделал первоначальную настройку. Подключил агент.
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/6a2eee89-35fb-46cc-84d6-2a8e884945e8)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/1e13e543-427e-4e4c-baa1-68f50b5071e7)
 
-#### 1. Создал Freestyle Job.
+
+#### 1. Создал Freestyle Job, но сборка завершвется с ошибкой
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/321a3d49-6d46-48c1-9b71-18785847254e)
+
+Started by user admin
+Running as SYSTEM
+Building remotely on agent (ansible) in workspace /opt/jenkins_agent/workspace/freestyle
+The recommended git tool is: NONE
+using credential 3d49eb96-80f2-4779-85a4-915edb4bbfc6
+ > git rev-parse --resolve-git-dir /opt/jenkins_agent/workspace/freestyle/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/inyushov/vector-role.git # timeout=10
+Fetching upstream changes from https://github.com/inyushov/vector-role.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/inyushov/vector-role.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 481e333924e2e808a4497a9108dfa03f24971b8a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 481e333924e2e808a4497a9108dfa03f24971b8a # timeout=10
+Commit message: "Update main.yml"
+ > git rev-list --no-walk 481e333924e2e808a4497a9108dfa03f24971b8a # timeout=10
+[freestyle] $ /bin/sh -xe /tmp/jenkins9193507102659184183.sh
++ molecule test
+INFO     default scenario test matrix: dependency, lint, cleanup, destroy, syntax, create, prepare, converge, idempotence, side_effect, verify, cleanup, destroy
+INFO     Performing prerun...
+INFO     Guessed /opt/jenkins_agent/workspace/freestyle as project root directory
+INFO     Using /home/jenkins/.cache/ansible-lint/e90229/roles/glennbell.linux_administration symlink to current repository in order to enable Ansible to find the role using its expected full name.
+INFO     Added ANSIBLE_ROLES_PATH=~/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/jenkins/.cache/ansible-lint/e90229/roles
+INFO     Running default > dependency
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+WARNING  Skipping, missing the requirements file.
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+WARNING  Skipping, missing the requirements file.
+INFO     Running default > lint
+INFO     Lint is disabled.
+INFO     Running default > cleanup
+WARNING  Skipping, cleanup playbook not configured.
+INFO     Running default > destroy
+INFO     Sanity checks: 'docker'
+/usr/local/lib/python3.6/site-packages/paramiko/transport.py:33: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.hazmat.backends import default_backend
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+
+PLAY [Destroy] *****************************************************************
+
+TASK [Destroy molecule instance(s)] ********************************************
+changed: [localhost] => (item=instance)
+
+TASK [Wait for instance(s) deletion to complete] *******************************
+FAILED - RETRYING: Wait for instance(s) deletion to complete (300 retries left).
+ok: [localhost] => (item=instance)
+
+TASK [Delete docker networks(s)] ***********************************************
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
+
+INFO     Running default > syntax
+
+playbook: /opt/jenkins_agent/workspace/freestyle/molecule/default/converge.yml
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+INFO     Running default > create
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+
+PLAY [Create] ******************************************************************
+
+TASK [Log into a Docker registry] **********************************************
+skipping: [localhost] => (item=None)
+skipping: [localhost]
+
+TASK [Check presence of custom Dockerfiles] ************************************
+ok: [localhost] => (item={'image': 'quay.io/centos/centos:stream8', 'name': 'instance', 'pre_build_image': True})
+
+TASK [Create Dockerfiles from image names] *************************************
+skipping: [localhost] => (item={'image': 'quay.io/centos/centos:stream8', 'name': 'instance', 'pre_build_image': True})
+
+TASK [Discover local Docker images] ********************************************
+ok: [localhost] => (item={'changed': False, 'skipped': True, 'skip_reason': 'Conditional result was False', 'item': {'image': 'quay.io/centos/centos:stream8', 'name': 'instance', 'pre_build_image': True}, 'ansible_loop_var': 'item', 'i': 0, 'ansible_index_var': 'i'})
+
+TASK [Build an Ansible compatible image (new)] *********************************
+skipping: [localhost] => (item=molecule_local/quay.io/centos/centos:stream8)
+
+TASK [Create docker network(s)] ************************************************
+
+TASK [Determine the CMD directives] ********************************************
+ok: [localhost] => (item={'image': 'quay.io/centos/centos:stream8', 'name': 'instance', 'pre_build_image': True})
+
+TASK [Create molecule instance(s)] *********************************************
+changed: [localhost] => (item=instance)
+
+TASK [Wait for instance(s) creation to complete] *******************************
+FAILED - RETRYING: Wait for instance(s) creation to complete (300 retries left).
+changed: [localhost] => (item={'started': 1, 'finished': 0, 'ansible_job_id': '391917310007.32371', 'results_file': '/home/jenkins/.ansible_async/391917310007.32371', 'changed': True, 'failed': False, 'item': {'image': 'quay.io/centos/centos:stream8', 'name': 'instance', 'pre_build_image': True}, 'ansible_loop_var': 'item'})
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0
+
+INFO     Running default > prepare
+WARNING  Skipping, prepare playbook not configured.
+INFO     Running default > converge
+
+PLAY [Converge] ****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+ok: [instance]
+
+TASK [Include vector-role] *****************************************************
+
+TASK [vector-role : Create vector work directory] ******************************
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+changed: [instance]
+
+TASK [vector-role : Get Vector distrib] ****************************************
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+changed: [instance]
+
+TASK [vector-role : Unzip Vector archive] **************************************
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+changed: [instance]
+
+TASK [vector-role : Install Vector binary] *************************************
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+fatal: [instance]: FAILED! => {"changed": false, "module_stderr": "/bin/sh: sudo: command not found\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 127}
+
+PLAY RECAP *********************************************************************
+instance                   : ok=4    changed=3    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+
+CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/home/jenkins/.cache/molecule/freestyle/default/inventory', '--skip-tags', 'molecule-notest,notest', '/opt/jenkins_agent/workspace/freestyle/molecule/default/converge.yml']
+WARNING  An error occurred during the test sequence action: 'converge'. Cleaning up.
+INFO     Running default > cleanup
+WARNING  Skipping, cleanup playbook not configured.
+INFO     Running default > destroy
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+[WARNING]: Collection community.docker does not support Ansible version 2.10.17
+
+PLAY [Destroy] *****************************************************************
+
+TASK [Destroy molecule instance(s)] ********************************************
+changed: [localhost] => (item=instance)
+
+TASK [Wait for instance(s) deletion to complete] *******************************
+FAILED - RETRYING: Wait for instance(s) deletion to complete (300 retries left).
+FAILED - RETRYING: Wait for instance(s) deletion to complete (299 retries left).
+changed: [localhost] => (item=instance)
+
+TASK [Delete docker networks(s)] ***********************************************
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=2    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
+
+INFO     Pruning extra files from scenario ephemeral directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
 
 
 
