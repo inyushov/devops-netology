@@ -386,6 +386,72 @@ ERROR: script returned exit code 1
 Finished: FAILURE
 ```
 
+#### После установки Python 3.9 и переключение по умолчанию на версию python3.9 не проходит даже molecule --version ошибка, соответственно если переключаюсь обртно на python3.9 то все ок!
+```
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ molecule --version
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:104: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (5.0.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  RequestsDependencyWarning)
+molecule 3.6.1 using python 3.6
+    ansible:2.10.17
+    delegated:3.6.1 from molecule
+    docker:1.1.0 from molecule_docker requiring collections: community.docker>=1.9.1
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ which python3
+/usr/bin/python3
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ which python3.6
+/usr/bin/python3.6
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ which python3.9
+/usr/local/bin/python3.9
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ cat /usr/local/bin/molecule
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from molecule.__main__ import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.9 1
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ sudo update-alternatives --config python3
+
+There are 2 programs which provide 'python3'.
+
+  Selection    Command
+-----------------------------------------------
+   1           /usr/local/bin/python3.9
+*+ 2           /usr/bin/python3.6
+
+Enter to keep the current selection[+], or type selection number: 1
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ molecule --version
+Traceback (most recent call last):
+  File "/usr/local/bin/molecule", line 5, in <module>
+    from molecule.__main__ import main
+ModuleNotFoundError: No module named 'molecule'
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ sudo update-alternatives --config python3
+
+There are 2 programs which provide 'python3'.
+
+  Selection    Command
+-----------------------------------------------
+ + 1           /usr/local/bin/python3.9
+*  2           /usr/bin/python3.6
+
+Enter to keep the current selection[+], or type selection number: 2
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ molecule --version
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
+  from cryptography.exceptions import InvalidSignature
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:104: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (5.0.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  RequestsDependencyWarning)
+molecule 3.6.1 using python 3.6
+    ansible:2.10.17
+    delegated:3.6.1 from molecule
+    docker:1.1.0 from molecule_docker requiring collections: community.docker>=1.9.1
+[centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$
+
+```
+
 
 
 
