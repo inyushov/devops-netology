@@ -386,7 +386,7 @@ ERROR: script returned exit code 1
 Finished: FAILURE
 ```
 
-#### После установки Python 3.9 и переключение по умолчанию на версию python3.9 не проходит даже molecule --version ошибка, соответственно если переключаюсь обртно на python3.9 то все ок!
+#### После установки Python 3.9 и переключение по умолчанию на версию python3.9 не проходит даже molecule --version ошибка, соответственно если переключаюсь обратно на python3.6 то все ок!
 ```
 [centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$ molecule --version
 /usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.6.
