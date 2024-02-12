@@ -1,12 +1,12 @@
-Создал две VM с помощью Terraform.
+#### Создал две VM с помощью Terraform.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/5704cb5d-e841-4c83-9b8c-cbd5ec88ec3f)
 
-Установил Jenkins при помощи playbook.
+#### Установил Jenkins при помощи playbook.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/79a0ab72-dc93-454a-b63f-cb2032681513)
 
-Сделал первоначальную настройку. Подключил агент.
+#### Сделал первоначальную настройку. Подключил агент.
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/1e13e543-427e-4e4c-baa1-68f50b5071e7)
 
@@ -451,7 +451,7 @@ molecule 3.6.1 using python 3.6
 [centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$
 
 ```
-
+#### 3. Перенес Declarative Pipeline в репозиторий в файл Jenkinsfile 
 
 
 
