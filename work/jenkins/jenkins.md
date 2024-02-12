@@ -470,6 +470,8 @@ molecule 3.6.1 using python 3.6
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/2adca68a-7b7e-4f74-8154-712ffb9accc4)
 
+После запуска сборка Scripted Pipeline так же с ошибкой.
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/add67e0e-94a5-4c11-afd6-d1a017d9ba9f)
 
 
