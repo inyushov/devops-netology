@@ -450,9 +450,9 @@ molecule 3.6.1 using python 3.6
     docker:1.1.0 from molecule_docker requiring collections: community.docker>=1.9.1
 [centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$
 
+```
 ### Решил не останавливаться и продолжить выполения заданий, так как уже много времени потерял устраняя данную ошибку.
 
-```
 #### 3. Перенес Declarative Pipeline в репозиторий в файл Jenkinsfile https://github.com/inyushov/vector-role/blob/main/Jenkinsfile
 
 #### 4. Создал Multibranch Pipeline на запуск Jenkinsfile из репозитория.
