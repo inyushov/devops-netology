@@ -473,8 +473,13 @@ molecule 3.6.1 using python 3.6
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/add67e0e-94a5-4c11-afd6-d1a017d9ba9f)
 
 
+#### 7. Исправленный Pipeline выложил в репозиторий https://github.com/inyushov/devops-netology/blob/main/work/jenkins/ScriptedJenkinsfile
 
+#### 8. Cсылки на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 
+Declarative Pipeline Jenkinsfile https://github.com/inyushov/vector-role/blob/main/Jenkinsfile
+
+Scripted Pipeline https://github.com/inyushov/devops-netology/blob/main/work/jenkins/ScriptedJenkinsfile
 
 
 
