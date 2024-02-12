@@ -450,8 +450,29 @@ molecule 3.6.1 using python 3.6
     docker:1.1.0 from molecule_docker requiring collections: community.docker>=1.9.1
 [centos@fhm0isvj571ijv5hc9fp Python-3.9.6]$
 
+### Решил не останавливаться и продолжить выполения заданий, так как уже много времени потерял устраняя данную ошибку.
+
 ```
-#### 3. Перенес Declarative Pipeline в репозиторий в файл Jenkinsfile 
+#### 3. Перенес Declarative Pipeline в репозиторий в файл Jenkinsfile https://github.com/inyushov/vector-role/blob/main/Jenkinsfile
+
+#### 4. Создал Multibranch Pipeline на запуск Jenkinsfile из репозитория.
+
+Результат сканирования:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/575198e7-aad8-439b-a3c2-237d0484292d)
+
+После запуска сборка Multibranch Pipeline выполняется с ошибкой, так как все идет с первого задания.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/cee5f0d6-da20-4bae-b240-aaa1d5d8c7de)
+
+#### 5. Создал Scripted Pipeline, наполнить его скриптом из pipeline https://github.com/netology-code/mnt-homeworks/blob/MNT-video/09-ci-04-jenkins/pipeline
+#### 6. Внес необходимые изменения, чтобы Pipeline запускал ansible-playbook без флагов --check --diff, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами --check --diff
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/2adca68a-7b7e-4f74-8154-712ffb9accc4)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/add67e0e-94a5-4c11-afd6-d1a017d9ba9f)
+
+
 
 
 
