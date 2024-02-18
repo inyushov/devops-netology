@@ -55,6 +55,16 @@ CPUla - нагрузка на процессор.
 Минусы:
 выше требования к ресурсам отслеживаемых nod.
 
+#### 6.
+
+Prometheus - гибрид
+TICK - push
+Zabbix - гибрид
+VictoriaMetrics - push
+Nagios - pull
+
+
+
 
 
 
