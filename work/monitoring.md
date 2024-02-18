@@ -67,6 +67,24 @@ VictoriaMetrics - push;
 
 Nagios - pull.
 
+#### 7.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4d31c294-ee36-4324-bff9-c3d01ef71c4f)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/f4708882-7a87-4e38-9034-0cb58ac48963)
+
+#### 8.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/26f33f2c-4ebb-4755-b05e-01f2d9e79d3e)
+
+#### 9.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/b1e047ab-8d0b-4ee8-85d6-a4b0d49fd9e3)
+
+
+
+
+
 
 
 
