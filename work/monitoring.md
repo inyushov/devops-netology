@@ -58,9 +58,13 @@ CPUla - нагрузка на процессор.
 #### 6.
 
 Prometheus - гибрид
+
 TICK - push
+
 Zabbix - гибрид
+
 VictoriaMetrics - push
+
 Nagios - pull
 
 
