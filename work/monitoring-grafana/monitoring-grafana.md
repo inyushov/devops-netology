@@ -13,6 +13,7 @@
 
 Создал Dashboard и в ней создал Panels
 
+
 Утилизация CPU для nodeexporter (в процентах, 100-idle);
 ```
 100 - (avg by (instance) (rate(node_cpu_seconds_total{job="nodeexporter",mode="idle"}[1m])) * 100)
