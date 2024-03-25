@@ -11,10 +11,26 @@
 
 #### 2.
 
-утилизация CPU для nodeexporter (в процентах, 100-idle);
+Утилизация CPU для nodeexporter (в процентах, 100-idle);
 ```
 100 - (avg by (instance) (rate(node_cpu_seconds_total{job="nodeexporter",mode="idle"}[1m])) * 100)
 ```
 
+CPULA 1/5/15;
+```
+avg by (instance)(rate(node_load1{}[1m]))
+avg by (instance)(rate(node_load5{}[1m]))
+avg by (instance)(rate(node_load15{}[1m]))
+```
+Количество свободной оперативной памяти;
+```
+avg(node_memory_MemFree_bytes{instance="nodeexporter:9100",job="nodeexporter"})
+```
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/362285a3-a55c-487e-8bfc-f8b21c3a981f)
+Количество места на файловой системе.
+```
+avg(node_filesystem_avail_bytes{instance="nodeexporter:9100",job="nodeexporter"})
+```
+![image](https://github.com/inyushov/devops-netology/assets/127683348/f86efd85-0631-402f-bf25-af5682151fec)
+
+
