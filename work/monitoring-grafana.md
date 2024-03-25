@@ -8,3 +8,5 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/38a04a84-8aeb-4b1b-a2dd-3cb3d185d949)
 
+#### 2.
+
