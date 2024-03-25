@@ -11,3 +11,8 @@
 
 #### 2.
 
+утилизация CPU для nodeexporter (в процентах, 100-idle);
+
+100 - (avg by (instance) (rate(node_cpu_seconds_total{job="nodeexporter",mode="idle"}[1m])) * 100)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/362285a3-a55c-487e-8bfc-f8b21c3a981f)
