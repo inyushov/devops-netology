@@ -39,5 +39,9 @@ avg(node_filesystem_avail_bytes{instance="nodeexporter:9100",job="nodeexporter"}
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b0c2e3bf-bff2-47af-8c21-bdc415f593f4)
 
+#### 4.
+
+
+
 
 
