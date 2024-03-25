@@ -41,7 +41,7 @@ avg(node_filesystem_avail_bytes{instance="nodeexporter:9100",job="nodeexporter"}
 
 #### 4.
 
-
+https://github.com/inyushov/devops-netology/blob/main/work/monitoring-grafana/dashboard_exp.json
 
 
 
