@@ -17,3 +17,6 @@ Cкриншот интерфейса kibana;
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/75507ed3-2be9-479e-8a70-1946b4b541d2)
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/38264ab1-c49b-4c73-aa26-5a1efa853fdc)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/eb147977-960b-42a3-ba9a-e76833bc1b36)
+
