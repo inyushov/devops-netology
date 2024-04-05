@@ -24,6 +24,5 @@
 | RabbitMQ | Да | Да | Средняя | JSON, XML, AMQP, MQTT | Да | Высокая |
 | ActiveMQ | Да | Да | Средняя | JSON, XML, SOAP, STOMP | Да | Средняя |
 | Redis | Да | Нет | Высокая | JSON, Strings, Lists, Sets, Hashes | Нет | Высокая |
-| Beanstalk | Нет | Нет | Средняя | JSON, Strings | Нет | Средняя |
 
 
