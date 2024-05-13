@@ -2,6 +2,8 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/385ddc29-16d6-4c8d-bb06-847012e02f88)
 
+[terraform](scr%)
+
 Виртуальные машины:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/278c652c-4d44-4e45-91f7-16312f55e64d)
