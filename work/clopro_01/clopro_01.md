@@ -2,7 +2,7 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/385ddc29-16d6-4c8d-bb06-847012e02f88)
 
-[terraform](scr%)
+[terraform](scr%https://github.com/inyushov/devops-netology/tree/main/work/clopro_01/src)
 
 Виртуальные машины:
 
