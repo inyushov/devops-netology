@@ -16,4 +16,4 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 Создать Instance Group с тремя ВМ и шаблоном LAMP. Для LAMP рекомендуется использовать image_id = fd827b91d99psvq5fjit 
 
-[main.tf](https://github.com/inyushov/devops-netology/blob/main/work/clopro-02/src/main.tf)
+[Конфигурация main.tf](https://github.com/inyushov/devops-netology/blob/main/work/clopro-02/src/main.tf)
