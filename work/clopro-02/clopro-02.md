@@ -56,8 +56,11 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b5d3ff11-6e9b-4c0a-a539-1c40d6d27aec)
 
+Работа балансировщика после удаления одной машины
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/238d03d6-57f2-4005-99e7-7621f04cc829)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/0c70b83c-f935-424b-bb2d-34cb59cd340c)
 
 
 
