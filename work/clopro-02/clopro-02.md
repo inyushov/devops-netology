@@ -42,6 +42,8 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/427cc0de-670d-49c6-a37b-b6757d8fbf23)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/f230cb91-3749-4c63-bf62-4af6690b62c0)
+
 Проверка работоспособности после удалении одной машины
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a84aa5ae-7177-484f-ab50-d7e69ced9ede)
