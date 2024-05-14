@@ -36,11 +36,13 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 Конфигурация [network.tf](https://github.com/inyushov/devops-netology/blob/main/work/clopro-02/src/network.tf)
 
+Проверка работоспособности до удалении одной машины
+
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/2f2ccc96-434c-45fe-8ccb-4659cfe56d88)
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/427cc0de-670d-49c6-a37b-b6757d8fbf23)
 
-Проверка работоспособности при удалении одной машины
+Проверка работоспособности после удалении одной машины
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a84aa5ae-7177-484f-ab50-d7e69ced9ede)
 
@@ -48,13 +50,11 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/f86dac98-e6f8-4b82-a4a6-ba2e9298ab83)
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/238d03d6-57f2-4005-99e7-7621f04cc829)
-
-
 Проверяем вызов по адресу балансировщика:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b5d3ff11-6e9b-4c0a-a539-1c40d6d27aec)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/238d03d6-57f2-4005-99e7-7621f04cc829)
 
 
 
