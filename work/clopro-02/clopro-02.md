@@ -1,6 +1,6 @@
 #### 1. Yandex Cloud
 
-Создать бакет Object Storage и разместить в нём файл с картинкой:
+##### Создать бакет Object Storage и разместить в нём файл с картинкой:
 
 [Конфигурация bucket.tf](https://github.com/inyushov/devops-netology/blob/main/work/clopro-02/src/bucket.tf)
 
