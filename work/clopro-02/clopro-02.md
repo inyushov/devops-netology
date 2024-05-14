@@ -36,7 +36,7 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 Конфигурация [network.tf](https://github.com/inyushov/devops-netology/blob/main/work/clopro-02/src/network.tf)
 
-Проверка работоспособности до удалении одной машины
+Проверка работоспособности до удаления одной VM
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/2f2ccc96-434c-45fe-8ccb-4659cfe56d88)
 
@@ -44,7 +44,7 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/f230cb91-3749-4c63-bf62-4af6690b62c0)
 
-Проверка работоспособности после удалении одной машины
+Проверка работоспособности после удалении одной VM
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a84aa5ae-7177-484f-ab50-d7e69ced9ede)
 
@@ -56,7 +56,7 @@ https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/b5d3ff11-6e9b-4c0a-a539-1c40d6d27aec)
 
-Работа балансировщика после удаления одной машины
+Работа балансировщика после удаления одной VM
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/238d03d6-57f2-4005-99e7-7621f04cc829)
 
