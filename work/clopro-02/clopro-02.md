@@ -11,3 +11,7 @@
 Полученная ссылка для скачивания
 
 https://storage.yandexcloud.net/test-storage-picture/Screenshot_1.jpg
+
+##### Создать группу ВМ в public подсети фиксированного размера с шаблоном LAMP и веб-страницей, содержащей ссылку на картинку из бакета:
+
+[Конфигурация instance-group.tf]
