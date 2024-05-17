@@ -20,3 +20,16 @@
 Заменил значение replicas на 2 и обновил deployment:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/4f21993f-cdbe-42e5-bf5a-170b1ada2a0a)
+
+##### 1.3 Продемонстрировать количество подов до и после масштабирования.
+
+До:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/6355b5c7-c3d7-4e4e-b0aa-f59b2954471a)
+
+После:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/5784f231-0577-4861-9173-d4efc6733d1b)
+
+##### 1.4 Создать Service, который обеспечит доступ до реплик приложений из п.1.
+
