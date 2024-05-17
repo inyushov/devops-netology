@@ -37,6 +37,16 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/7fc41b1a-c991-41bb-82c3-3cd53eac8e19)
 
+##### 1.5 Создать отдельный Pod с приложением multitool и убедиться с помощью curl, что из пода есть доступ до приложений из п.1.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/f90d3379-fce3-46b6-94e4-c7436e38a56a)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/8556c7f3-0d72-4b81-b847-6aaaab7c471a)
+
+Ответил nginx
+
+
+
 
 
 
