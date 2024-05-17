@@ -45,6 +45,34 @@
 
 Ответил nginx
 
+#### 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий
+
+##### 2.1 Создать Deployment приложения nginx и обеспечить старт контейнера только после того, как будет запущен сервис этого приложения.
+
+##### 2.2 Убедиться, что nginx не стартует. В качестве Init-контейнера взять busybox.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/1f0b3f4e-3ef6-45a0-900e-02f5ddc53888)
+
+Под не запущен и находится в состоянии Init:0/1
+
+##### 2.3 Создать и запустить Service. Убедиться, что Init запустился.
+
+##### 2.4 Продемонстрировать состояние пода до и после запуска сервиса.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/b0674456-0361-4be3-83c0-359104527f72)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/2758085b-cbeb-42de-9986-9696f8705981)
+
+До:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4fce7c08-37ea-420d-9a2d-1f40fb4dcf00)
+
+После:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/1caf7346-d100-4a7b-bb49-a48530f8a5fd)
+
+
+
 
 
 
