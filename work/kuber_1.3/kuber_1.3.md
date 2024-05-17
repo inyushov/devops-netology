@@ -33,3 +33,13 @@
 
 ##### 1.4 Создать Service, который обеспечит доступ до реплик приложений из п.1.
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/94c31afd-ae5b-4fc8-a264-ab8d561059d7)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/7fc41b1a-c991-41bb-82c3-3cd53eac8e19)
+
+
+
+
+
+
+
