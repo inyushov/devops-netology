@@ -15,5 +15,8 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a0c4c945-0a63-4c83-8493-f6625b1f0a42)
 
+##### 1.2 После запуска увеличить количество реплик работающего приложения до 2.
 
+Заменил значение replicas на 2 и обновил deployment:
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/4f21993f-cdbe-42e5-bf5a-170b1ada2a0a)
