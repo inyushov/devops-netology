@@ -24,6 +24,20 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/a277477d-3510-484d-97b9-1ca48055cc21)
 
+#### 2. Создать Service и обеспечить доступ к приложениям снаружи кластера
+
+##### 2.1 Создать отдельный Service приложения из Задания 1 с возможностью доступа снаружи кластера к nginx, используя тип NodePort.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/c3f6bcc7-e163-4676-b517-a03c8bb5dfd5)
+
+##### 2.2 Продемонстрировать доступ с помощью браузера или curl с локального компьютера.
+
+##### 2.3 Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/8d4e6ed6-ac5b-4b0c-a157-0eb81bd4b3e0)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/f61e3414-60cc-4593-a0fa-40da292ead84)
+
 
 
 
