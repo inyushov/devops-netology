@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: kuber-15
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: main-be
+  template:
+    metadata:
+      labels:
+        app: main-be
+    spec:
+      containers:
+        - image: wbitt/network-multitool
+          name: multitool
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-backend
+  namespace: kuber-15
+spec:
+  ports:
+    - name: main-be
+      port: 80
+  selector:
+    app: main-be
