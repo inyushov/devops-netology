@@ -28,7 +28,9 @@
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/6e4e0007-dd08-4978-808e-4ed6693903ba)
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/97c7cdaa-2f61-4124-8956-2a478bf31099)
+![image](https://github.com/inyushov/devops-netology/assets/127683348/7f728a2e-e1a4-4a08-895f-272974c842d4)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/1a09cc14-03f8-47ce-98ef-29df36717c7d)
 
 ##### 2.3 Продемонстрировать возможность чтения файла изнутри пода.
 
