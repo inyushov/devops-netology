@@ -4,7 +4,7 @@
 
 Создал новый Namespace для дз:
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/3d3f5556-f832-4991-90d5-27a9e1e735a4
+![image](https://github.com/inyushov/devops-netology/assets/127683348/3d3f5556-f832-4991-90d5-27a9e1e735a4)
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/406b2d0e-b3d0-457f-a5c0-ed01b65fe719)
 
