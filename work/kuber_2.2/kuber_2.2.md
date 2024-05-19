@@ -48,6 +48,23 @@ PersistentVolumes это ресурсы кластера Kubernetes, котор�
 
 ##### 2.2 Создать Deployment приложения состоящего из multitool, и подключить к нему PV, созданный автоматически на сервере NFS.
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/37fa40e2-4000-4290-8ff2-db7718892492)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/b642f143-587c-4409-a763-0e33e92c73fe)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/f928bbf8-6a4f-4e41-ae60-ba12f1e06fdb)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/a945bc21-ceac-4dc8-b115-db3427839358)
+
+Ошибка: 
+failed to provision volume with StorageClass "nfs-csi": rpc error: code = Internal desc = failed to mount nfs server: rpc error: code = Internal desc = mount failed: exit status 32
+Mounting command: mount
+Mounting arguments: -t nfs -o hard,nfsvers=4.1 192.168.56.11:/srv/nfs /tmp/pvc-82d0fa4f-86a7-4db2-bf85-5bf8a2b24086
+Output: mount.nfs: access denied by server while mounting 192.168.56.11:/srv/nfs
+  Normal  ExternalProvisioning  11s (x4 over 55s)  persistentvolume-controller  Waiting for a volume to be created either by the external provisioner 'nfs.csi.k8s.io' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+
+
+
 
 
 
