@@ -63,11 +63,17 @@ Mounting arguments: -t nfs -o hard,nfsvers=4.1 192.168.56.11:/srv/nfs /tmp/pvc-8
 Output: mount.nfs: access denied by server while mounting 192.168.56.11:/srv/nfs
   Normal  ExternalProvisioning  11s (x4 over 55s)  persistentvolume-controller  Waiting for a volume to be created either by the external provisioner 'nfs.csi.k8s.io' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
 
+Установил пакет nfs-common через команду sudo apt install nfs-common -y , установка прошла успешно:
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/3407a557-fb12-42c5-958f-5ebe67ca9aea)
 
+Повторил выполнение задания с нуля:
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/cedb8509-20b3-403e-aa82-52d8ff9cf6fd)
 
+К сожалению ошибка осталась(
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/49573694-f90a-4300-b1d9-b2ba11115a63)
 
 
 
