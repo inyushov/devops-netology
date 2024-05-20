@@ -48,8 +48,6 @@ Configmap:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/9a146ee9-6b7b-4c12-bed1-9a38e3573412)
 
-![image](https://github.com/inyushov/devops-netology/assets/127683348/0524b576-8a18-4d50-9f14-6876172707e4)
-
 
 Ingress:
 
