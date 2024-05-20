@@ -24,6 +24,32 @@ curl:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/74f106fc-e0c4-48b8-9aff-b9eab4d1c9fd)
 
+#### 2. Создать приложение с вашей веб-страницей, доступной по HTTPS
+
+Deployment:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/081bc4a7-97cc-4bf2-92a5-8175a5e07692)
+
+Configmap:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/02dd3585-6dbe-46ce-800b-19f4787a2dc3)
+
+Выпускаю самоподписный сертификат SSL:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/6fe02df3-19c3-4077-9045-a03c92d4898d)
+
+Файлы сертификата переместил в созданную папку cert:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/c5e7aff4-0db0-4a66-9a22-cb43ff21df92)
+
+Создаю secret:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/9a84b821-616d-4f2b-92ef-c6061215f07d)
+
+
+
+
+
 
 
 
