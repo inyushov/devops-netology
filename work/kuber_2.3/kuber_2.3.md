@@ -46,6 +46,25 @@ Configmap:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/9a84b821-616d-4f2b-92ef-c6061215f07d)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/9a146ee9-6b7b-4c12-bed1-9a38e3573412)
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/0524b576-8a18-4d50-9f14-6876172707e4)
+
+
+Ingress:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/31884a82-5bea-4d3c-9e42-f847b5101b7d)
+
+Service:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/14b857f7-4910-4fae-84db-63f6862591d6)
+
+Запускаем все созданные манифесты и проверяем:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/7ee07612-8572-4b4e-8787-758e54c894a5)
+
+
+
 
 
 
