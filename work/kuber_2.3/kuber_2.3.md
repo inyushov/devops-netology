@@ -61,6 +61,12 @@ Service:
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/7ee07612-8572-4b4e-8787-758e54c894a5)
 
+![image](https://github.com/inyushov/devops-netology/assets/127683348/0c8a1191-dde3-4ea1-9e3b-3eafe7615ea1)
+
+Прописываю dns my-kuber.com в файл hosts и проверяю доступность измененной страницы:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/d471a512-b3ee-4464-adb3-9a41698423c3)
+
 
 
 
