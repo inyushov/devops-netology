@@ -75,6 +75,14 @@ Output: mount.nfs: access denied by server while mounting 192.168.56.11:/srv/nfs
 
 ![image](https://github.com/inyushov/devops-netology/assets/127683348/49573694-f90a-4300-b1d9-b2ba11115a63)
 
+Ваша рекомендация помогла!!!:
+
+![image](https://github.com/inyushov/devops-netology/assets/127683348/b8d69236-9f18-41bc-9288-6007b8392e7d)
+
+
+
+
+
 
 
 
